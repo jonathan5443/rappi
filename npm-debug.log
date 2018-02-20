@@ -1,0 +1,1163 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'instal' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose readDependencies loading dependencies from /Users/paolalarotta/Documents/Jonny/mercury/package.json
+5 warn package.json AlcaldiaTocaima@1.0.0 No README data
+6 verbose install where, deps [ '/Users/paolalarotta/Documents/Jonny/mercury',
+6 verbose install   [ 'axios',
+6 verbose install     'css-loader',
+6 verbose install     'file-loader',
+6 verbose install     'html-webpack-plugin',
+6 verbose install     'node-sass',
+6 verbose install     'path',
+6 verbose install     'react',
+6 verbose install     'react-dom',
+6 verbose install     'react-image-gallery',
+6 verbose install     'react-owl-carousel',
+6 verbose install     'react-router',
+6 verbose install     'react-router-dom',
+6 verbose install     'sass-loader',
+6 verbose install     'style-loader',
+6 verbose install     'webpack',
+6 verbose install     'webpack-dev-server',
+6 verbose install     'babel-core',
+6 verbose install     'babel-loader',
+6 verbose install     'babel-preset-es2015',
+6 verbose install     'babel-preset-react' ] ]
+7 verbose install where, peers [ '/Users/paolalarotta/Documents/Jonny/mercury', [] ]
+8 verbose installManyTop reading for lifecycle /Users/paolalarotta/Documents/Jonny/mercury/package.json
+9 info preinstall AlcaldiaTocaima@1.0.0
+10 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/babel-core/package.json
+11 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/babel-loader/package.json
+12 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/babel-preset-es2015/package.json
+13 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/babel-preset-react/package.json
+14 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/css-loader/package.json
+15 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/file-loader/package.json
+16 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/html-webpack-plugin/package.json
+17 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/node-sass/package.json
+18 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/path/package.json
+19 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/react/package.json
+20 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/react-dom/package.json
+21 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/react-image-gallery/package.json
+22 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/react-owl-carousel/package.json
+23 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/react-router/package.json
+24 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/react-router-dom/package.json
+25 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/sass-loader/package.json
+26 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/style-loader/package.json
+27 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/webpack/package.json
+28 verbose installManyTop reading scoped package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/webpack-dev-server/package.json
+29 info package.json path@0.12.7 path is also the name of a node core module.
+30 verbose readDependencies loading dependencies from /Users/paolalarotta/Documents/Jonny/mercury/package.json
+31 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/babel-core/package.json
+32 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/babel-loader/package.json
+33 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/babel-preset-es2015/package.json
+34 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/babel-preset-react/package.json
+35 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/css-loader/package.json
+36 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/file-loader/package.json
+37 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/html-webpack-plugin/package.json
+38 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/node-sass/package.json
+39 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/path/package.json
+40 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/react/package.json
+41 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/react-dom/package.json
+42 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/react-image-gallery/package.json
+43 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/react-owl-carousel/package.json
+44 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/react-router/package.json
+45 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/react-router-dom/package.json
+46 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/sass-loader/package.json
+47 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/style-loader/package.json
+48 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/webpack/package.json
+49 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/webpack-dev-server/package.json
+50 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/.bin/node-sass/package.json
+51 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/.bin/webpack/package.json
+52 verbose targetResolver reading package data from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/.bin/webpack-dev-server/package.json
+53 verbose already installed skipping babel-preset-react@^6.24.1 /Users/paolalarotta/Documents/Jonny/mercury
+54 silly cache add args [ 'axios@^0.17.1', null ]
+55 verbose cache add spec axios@^0.17.1
+56 silly cache add parsed spec Result {
+56 silly cache add   raw: 'axios@^0.17.1',
+56 silly cache add   scope: null,
+56 silly cache add   name: 'axios',
+56 silly cache add   rawSpec: '^0.17.1',
+56 silly cache add   spec: '>=0.17.1 <0.18.0',
+56 silly cache add   type: 'range' }
+57 silly addNamed axios@>=0.17.1 <0.18.0
+58 verbose addNamed ">=0.17.1 <0.18.0" is a valid semver range for axios
+59 silly addNameRange { name: 'axios', range: '>=0.17.1 <0.18.0', hasData: false }
+60 silly mapToRegistry name axios
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry data Result {
+63 silly mapToRegistry   raw: 'axios',
+63 silly mapToRegistry   scope: null,
+63 silly mapToRegistry   name: 'axios',
+63 silly mapToRegistry   rawSpec: '',
+63 silly mapToRegistry   spec: 'latest',
+63 silly mapToRegistry   type: 'tag' }
+64 silly mapToRegistry uri https://registry.npmjs.org/axios
+65 verbose addNameRange registry:https://registry.npmjs.org/axios not in flight; fetching
+66 verbose already installed skipping css-loader@^0.28.7 /Users/paolalarotta/Documents/Jonny/mercury
+67 verbose already installed skipping file-loader@^1.1.6 /Users/paolalarotta/Documents/Jonny/mercury
+68 verbose already installed skipping html-webpack-plugin@^2.30.1 /Users/paolalarotta/Documents/Jonny/mercury
+69 verbose already installed skipping node-sass@^4.7.2 /Users/paolalarotta/Documents/Jonny/mercury
+70 verbose already installed skipping path@^0.12.7 /Users/paolalarotta/Documents/Jonny/mercury
+71 verbose already installed skipping react@^16.2.0 /Users/paolalarotta/Documents/Jonny/mercury
+72 verbose already installed skipping react-dom@^16.2.0 /Users/paolalarotta/Documents/Jonny/mercury
+73 verbose already installed skipping react-image-gallery@^0.8.6 /Users/paolalarotta/Documents/Jonny/mercury
+74 verbose already installed skipping react-owl-carousel@^2.2.0 /Users/paolalarotta/Documents/Jonny/mercury
+75 verbose already installed skipping react-router@^4.2.0 /Users/paolalarotta/Documents/Jonny/mercury
+76 verbose already installed skipping react-router-dom@^4.2.2 /Users/paolalarotta/Documents/Jonny/mercury
+77 verbose already installed skipping sass-loader@^6.0.6 /Users/paolalarotta/Documents/Jonny/mercury
+78 verbose already installed skipping style-loader@^0.19.1 /Users/paolalarotta/Documents/Jonny/mercury
+79 verbose already installed skipping webpack@^3.10.0 /Users/paolalarotta/Documents/Jonny/mercury
+80 verbose already installed skipping webpack-dev-server@^2.9.7 /Users/paolalarotta/Documents/Jonny/mercury
+81 verbose already installed skipping babel-core@^6.26.0 /Users/paolalarotta/Documents/Jonny/mercury
+82 verbose already installed skipping babel-loader@^7.1.2 /Users/paolalarotta/Documents/Jonny/mercury
+83 verbose already installed skipping babel-preset-es2015@^6.24.1 /Users/paolalarotta/Documents/Jonny/mercury
+84 verbose request uri https://registry.npmjs.org/axios
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 6:38:16 PM
+87 verbose request id 8ccd7b113bd11dc8
+88 http request GET https://registry.npmjs.org/axios
+89 http 200 https://registry.npmjs.org/axios
+90 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+90 verbose headers   server: 'UploadServer',
+90 verbose headers   'cache-control': 'max-age=300',
+90 verbose headers   'last-modified': 'Sun, 11 Feb 2018 22:44:07 GMT',
+90 verbose headers   etag: '"5a80c737-191e6"',
+90 verbose headers   'x-npm-region': 'US-East',
+90 verbose headers   'content-encoding': 'gzip',
+90 verbose headers   'content-length': '16137',
+90 verbose headers   'accept-ranges': 'bytes',
+90 verbose headers   date: 'Mon, 12 Feb 2018 23:38:17 GMT',
+90 verbose headers   via: '1.1 varnish',
+90 verbose headers   age: '12456',
+90 verbose headers   connection: 'keep-alive',
+90 verbose headers   'x-served-by': 'cache-mia17622-MIA',
+90 verbose headers   'x-cache': 'HIT',
+90 verbose headers   'x-cache-hits': '16',
+90 verbose headers   'x-timer': 'S1518478697.106581,VS0,VE0',
+90 verbose headers   vary: 'Accept-Encoding, Accept' }
+91 silly get cb [ 200,
+91 silly get   { 'content-type': 'application/json; charset=UTF-8',
+91 silly get     server: 'UploadServer',
+91 silly get     'cache-control': 'max-age=300',
+91 silly get     'last-modified': 'Sun, 11 Feb 2018 22:44:07 GMT',
+91 silly get     etag: '"5a80c737-191e6"',
+91 silly get     'x-npm-region': 'US-East',
+91 silly get     'content-encoding': 'gzip',
+91 silly get     'content-length': '16137',
+91 silly get     'accept-ranges': 'bytes',
+91 silly get     date: 'Mon, 12 Feb 2018 23:38:17 GMT',
+91 silly get     via: '1.1 varnish',
+91 silly get     age: '12456',
+91 silly get     connection: 'keep-alive',
+91 silly get     'x-served-by': 'cache-mia17622-MIA',
+91 silly get     'x-cache': 'HIT',
+91 silly get     'x-cache-hits': '16',
+91 silly get     'x-timer': 'S1518478697.106581,VS0,VE0',
+91 silly get     vary: 'Accept-Encoding, Accept' } ]
+92 verbose get saving axios to /Users/paolalarotta/.npm/registry.npmjs.org/axios/.cache.json
+93 verbose correctMkdir /Users/paolalarotta/.npm correctMkdir not in flight; initializing
+94 silly addNameRange number 2 { name: 'axios', range: '>=0.17.1 <0.18.0', hasData: true }
+95 silly addNameRange versions [ 'axios',
+95 silly addNameRange   [ '0.1.0',
+95 silly addNameRange     '0.2.0',
+95 silly addNameRange     '0.2.1',
+95 silly addNameRange     '0.2.2',
+95 silly addNameRange     '0.3.0',
+95 silly addNameRange     '0.3.1',
+95 silly addNameRange     '0.4.0',
+95 silly addNameRange     '0.4.1',
+95 silly addNameRange     '0.4.2',
+95 silly addNameRange     '0.5.0',
+95 silly addNameRange     '0.5.1',
+95 silly addNameRange     '0.5.2',
+95 silly addNameRange     '0.5.3',
+95 silly addNameRange     '0.5.4',
+95 silly addNameRange     '0.6.0',
+95 silly addNameRange     '0.7.0',
+95 silly addNameRange     '0.8.0',
+95 silly addNameRange     '0.8.1',
+95 silly addNameRange     '0.9.0',
+95 silly addNameRange     '0.9.1',
+95 silly addNameRange     '0.10.0',
+95 silly addNameRange     '0.11.0',
+95 silly addNameRange     '0.11.1',
+95 silly addNameRange     '0.12.0',
+95 silly addNameRange     '0.13.0',
+95 silly addNameRange     '0.13.1',
+95 silly addNameRange     '0.14.0',
+95 silly addNameRange     '0.15.0',
+95 silly addNameRange     '0.15.1',
+95 silly addNameRange     '0.15.2',
+95 silly addNameRange     '0.15.3',
+95 silly addNameRange     '0.16.0',
+95 silly addNameRange     '0.16.1',
+95 silly addNameRange     '0.16.2',
+95 silly addNameRange     '0.17.0',
+95 silly addNameRange     '0.17.1' ] ]
+96 silly addNamed axios@0.17.1
+97 verbose addNamed "0.17.1" is a plain semver version for axios
+98 silly mapToRegistry name axios
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry data Result {
+101 silly mapToRegistry   raw: 'axios',
+101 silly mapToRegistry   scope: null,
+101 silly mapToRegistry   name: 'axios',
+101 silly mapToRegistry   rawSpec: '',
+101 silly mapToRegistry   spec: 'latest',
+101 silly mapToRegistry   type: 'tag' }
+102 silly mapToRegistry uri https://registry.npmjs.org/axios
+103 verbose addRemoteTarball https://registry.npmjs.org/axios/-/axios-0.17.1.tgz not in flight; adding
+104 verbose addRemoteTarball [ 'https://registry.npmjs.org/axios/-/axios-0.17.1.tgz',
+104 verbose addRemoteTarball   '2d8e3e5d0bdbd7327f91bc814f5c57660f81824d' ]
+105 info retry fetch attempt 1 at 6:38:17 PM
+106 info attempt registry request try #1 at 6:38:17 PM
+107 http fetch GET https://registry.npmjs.org/axios/-/axios-0.17.1.tgz
+108 http fetch 200 https://registry.npmjs.org/axios/-/axios-0.17.1.tgz
+109 silly fetchAndShaCheck shasum 2d8e3e5d0bdbd7327f91bc814f5c57660f81824d
+110 verbose addTmpTarball /var/folders/nq/cq50d_017ps01vc8gys8dmw80000gn/T/npm-9997-3a7815f2/registry.npmjs.org/axios/-/axios-0.17.1.tgz not in flight; adding
+111 verbose addTmpTarball already have metadata; skipping unpack for axios@0.17.1
+112 verbose correctMkdir /Users/paolalarotta/.npm correctMkdir not in flight; initializing
+113 silly cache afterAdd axios@0.17.1
+114 verbose afterAdd /Users/paolalarotta/.npm/axios/0.17.1/package/package.json not in flight; writing
+115 verbose correctMkdir /Users/paolalarotta/.npm correctMkdir not in flight; initializing
+116 verbose afterAdd /Users/paolalarotta/.npm/axios/0.17.1/package/package.json written
+117 silly install resolved [ { name: 'axios',
+117 silly install resolved     version: '0.17.1',
+117 silly install resolved     description: 'Promise based HTTP client for the browser and node.js',
+117 silly install resolved     main: 'index.js',
+117 silly install resolved     scripts:
+117 silly install resolved      { test: 'grunt test && bundlesize',
+117 silly install resolved        start: 'node ./sandbox/server.js',
+117 silly install resolved        build: 'NODE_ENV=production grunt build',
+117 silly install resolved        preversion: 'npm test',
+117 silly install resolved        version: 'npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json',
+117 silly install resolved        postversion: 'git push && git push --tags',
+117 silly install resolved        examples: 'node ./examples/server.js',
+117 silly install resolved        coveralls: 'cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js' },
+117 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/axios/axios.git' },
+117 silly install resolved     keywords: [ 'xhr', 'http', 'ajax', 'promise', 'node' ],
+117 silly install resolved     author: { name: 'Matt Zabriskie' },
+117 silly install resolved     license: 'MIT',
+117 silly install resolved     bugs: { url: 'https://github.com/axios/axios/issues' },
+117 silly install resolved     homepage: 'https://github.com/axios/axios',
+117 silly install resolved     devDependencies:
+117 silly install resolved      { bundlesize: '^0.5.7',
+117 silly install resolved        coveralls: '^2.11.9',
+117 silly install resolved        'es6-promise': '^4.0.5',
+117 silly install resolved        grunt: '^1.0.1',
+117 silly install resolved        'grunt-banner': '^0.6.0',
+117 silly install resolved        'grunt-cli': '^1.2.0',
+117 silly install resolved        'grunt-contrib-clean': '^1.0.0',
+117 silly install resolved        'grunt-contrib-nodeunit': '^1.0.0',
+117 silly install resolved        'grunt-contrib-watch': '^1.0.0',
+117 silly install resolved        'grunt-eslint': '^19.0.0',
+117 silly install resolved        'grunt-karma': '^2.0.0',
+117 silly install resolved        'grunt-ts': '^6.0.0-beta.3',
+117 silly install resolved        'grunt-webpack': '^1.0.18',
+117 silly install resolved        'istanbul-instrumenter-loader': '^1.0.0',
+117 silly install resolved        'jasmine-core': '^2.4.1',
+117 silly install resolved        karma: '^1.3.0',
+117 silly install resolved        'karma-chrome-launcher': '^2.0.0',
+117 silly install resolved        'karma-coverage': '^1.0.0',
+117 silly install resolved        'karma-firefox-launcher': '^1.0.0',
+117 silly install resolved        'karma-jasmine': '^1.0.2',
+117 silly install resolved        'karma-jasmine-ajax': '^0.1.13',
+117 silly install resolved        'karma-opera-launcher': '^1.0.0',
+117 silly install resolved        'karma-phantomjs-launcher': '^1.0.0',
+117 silly install resolved        'karma-safari-launcher': '^1.0.0',
+117 silly install resolved        'karma-sauce-launcher': '^1.1.0',
+117 silly install resolved        'karma-sinon': '^1.0.5',
+117 silly install resolved        'karma-sourcemap-loader': '^0.3.7',
+117 silly install resolved        'karma-webpack': '^1.7.0',
+117 silly install resolved        'load-grunt-tasks': '^3.5.2',
+117 silly install resolved        minimist: '^1.2.0',
+117 silly install resolved        'phantomjs-prebuilt': '^2.1.7',
+117 silly install resolved        sinon: '^1.17.4',
+117 silly install resolved        webpack: '^1.13.1',
+117 silly install resolved        'webpack-dev-server': '^1.14.1',
+117 silly install resolved        'url-search-params': '^0.6.1',
+117 silly install resolved        typescript: '^2.0.3' },
+117 silly install resolved     browser: { './lib/adapters/http.js': './lib/adapters/xhr.js' },
+117 silly install resolved     typings: './index.d.ts',
+117 silly install resolved     dependencies: { 'follow-redirects': '^1.2.5', 'is-buffer': '^1.1.5' },
+117 silly install resolved     bundlesize: [ [Object] ],
+117 silly install resolved     gitHead: 'ad1195f0702381a77b4f2863aad6ddb1002ffd51',
+117 silly install resolved     _id: 'axios@0.17.1',
+117 silly install resolved     _shasum: '2d8e3e5d0bdbd7327f91bc814f5c57660f81824d',
+117 silly install resolved     _from: 'axios@>=0.17.1 <0.18.0',
+117 silly install resolved     _npmVersion: '3.10.10',
+117 silly install resolved     _nodeVersion: '6.10.1',
+117 silly install resolved     _npmUser: { name: 'nickuraltsev', email: 'nick.uraltsev@gmail.com' },
+117 silly install resolved     dist:
+117 silly install resolved      { shasum: '2d8e3e5d0bdbd7327f91bc814f5c57660f81824d',
+117 silly install resolved        tarball: 'https://registry.npmjs.org/axios/-/axios-0.17.1.tgz' },
+117 silly install resolved     maintainers: [ [Object], [Object] ],
+117 silly install resolved     _npmOperationalInternal:
+117 silly install resolved      { host: 's3://npm-registry-packages',
+117 silly install resolved        tmp: 'tmp/axios-0.17.1.tgz_1510442680505_0.5486412935424596' },
+117 silly install resolved     directories: {},
+117 silly install resolved     _resolved: 'https://registry.npmjs.org/axios/-/axios-0.17.1.tgz' } ]
+118 info install axios@0.17.1 into /Users/paolalarotta/Documents/Jonny/mercury
+119 info installOne axios@0.17.1
+120 verbose installOne of axios to /Users/paolalarotta/Documents/Jonny/mercury not in flight; installing
+121 verbose correctMkdir /Users/paolalarotta/.npm/_locks correctMkdir not in flight; initializing
+122 verbose lock using /Users/paolalarotta/.npm/_locks/axios-eb70a233d24573aa.lock for /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios
+123 silly install write writing axios 0.17.1 to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios
+124 verbose unbuild node_modules/axios
+125 silly gentlyRm /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios is being purged from base /Users/paolalarotta/Documents/Jonny/mercury
+126 verbose gentlyRm don't care about contents; nuking /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios
+127 verbose tar unpack /Users/paolalarotta/.npm/axios/0.17.1/package.tgz
+128 verbose tar unpacking to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios
+129 silly gentlyRm /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios is being purged
+130 verbose gentlyRm don't care about contents; nuking /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios
+131 silly gunzTarPerm modes [ '755', '644' ]
+132 silly gunzTarPerm extractEntry package.json
+133 silly gunzTarPerm extractEntry README.md
+134 silly gunzTarPerm extractEntry LICENSE
+135 silly gunzTarPerm extractEntry index.js
+136 silly gunzTarPerm extractEntry dist/axios.js
+137 silly gunzTarPerm extractEntry dist/axios.min.js
+138 silly gunzTarPerm extractEntry dist/axios.map
+139 silly gunzTarPerm extractEntry dist/axios.min.map
+140 silly gunzTarPerm extractEntry index.d.ts
+141 silly gunzTarPerm extractEntry CHANGELOG.md
+142 silly gunzTarPerm extractEntry lib/axios.js
+143 silly gunzTarPerm extractEntry lib/defaults.js
+144 silly gunzTarPerm extractEntry lib/utils.js
+145 silly gunzTarPerm extractEntry lib/adapters/README.md
+146 silly gunzTarPerm extractEntry lib/adapters/http.js
+147 silly gunzTarPerm extractEntry lib/adapters/xhr.js
+148 silly gunzTarPerm extractEntry lib/cancel/Cancel.js
+149 silly gunzTarPerm extractEntry lib/cancel/CancelToken.js
+150 silly gunzTarPerm extractEntry lib/cancel/isCancel.js
+151 silly gunzTarPerm extractEntry lib/core/README.md
+152 silly gunzTarPerm extractEntry lib/core/Axios.js
+153 silly gunzTarPerm extractEntry lib/core/InterceptorManager.js
+154 silly gunzTarPerm extractEntry lib/core/createError.js
+155 silly gunzTarPerm extractEntry lib/core/dispatchRequest.js
+156 silly gunzTarPerm extractEntry lib/core/enhanceError.js
+157 silly gunzTarPerm extractEntry lib/core/settle.js
+158 silly gunzTarPerm extractEntry lib/core/transformData.js
+159 silly gunzTarPerm extractEntry lib/helpers/README.md
+160 silly gunzTarPerm extractEntry lib/helpers/btoa.js
+161 silly gunzTarPerm extractEntry lib/helpers/buildURL.js
+162 silly gunzTarPerm extractEntry lib/helpers/combineURLs.js
+163 silly gunzTarPerm extractEntry lib/helpers/cookies.js
+164 silly gunzTarPerm extractEntry lib/helpers/bind.js
+165 silly gunzTarPerm extractEntry lib/helpers/isAbsoluteURL.js
+166 silly gunzTarPerm extractEntry lib/helpers/isURLSameOrigin.js
+167 silly gunzTarPerm extractEntry lib/helpers/normalizeHeaderName.js
+168 silly gunzTarPerm extractEntry lib/helpers/parseHeaders.js
+169 silly gunzTarPerm extractEntry lib/helpers/spread.js
+170 silly gunzTarPerm extractEntry lib/helpers/deprecatedMethod.js
+171 silly gunzTarPerm extractEntry UPGRADE_GUIDE.md
+172 verbose write writing to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/package.json
+173 info preinstall axios@0.17.1
+174 verbose readDependencies loading dependencies from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/package.json
+175 silly prepareForInstallMany adding follow-redirects@^1.2.5 from axios dependencies
+176 silly prepareForInstallMany adding is-buffer@^1.1.5 from axios dependencies
+177 verbose readDependencies loading dependencies from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/package.json
+178 silly cache add args [ 'follow-redirects@^1.2.5', null ]
+179 verbose cache add spec follow-redirects@^1.2.5
+180 silly cache add args [ 'is-buffer@^1.1.5', null ]
+181 verbose cache add spec is-buffer@^1.1.5
+182 silly cache add parsed spec Result {
+182 silly cache add   raw: 'follow-redirects@^1.2.5',
+182 silly cache add   scope: null,
+182 silly cache add   name: 'follow-redirects',
+182 silly cache add   rawSpec: '^1.2.5',
+182 silly cache add   spec: '>=1.2.5 <2.0.0',
+182 silly cache add   type: 'range' }
+183 silly addNamed follow-redirects@>=1.2.5 <2.0.0
+184 verbose addNamed ">=1.2.5 <2.0.0" is a valid semver range for follow-redirects
+185 silly addNameRange { name: 'follow-redirects',
+185 silly addNameRange   range: '>=1.2.5 <2.0.0',
+185 silly addNameRange   hasData: false }
+186 silly mapToRegistry name follow-redirects
+187 silly mapToRegistry using default registry
+188 silly mapToRegistry registry https://registry.npmjs.org/
+189 silly mapToRegistry data Result {
+189 silly mapToRegistry   raw: 'follow-redirects',
+189 silly mapToRegistry   scope: null,
+189 silly mapToRegistry   name: 'follow-redirects',
+189 silly mapToRegistry   rawSpec: '',
+189 silly mapToRegistry   spec: 'latest',
+189 silly mapToRegistry   type: 'tag' }
+190 silly mapToRegistry uri https://registry.npmjs.org/follow-redirects
+191 verbose addNameRange registry:https://registry.npmjs.org/follow-redirects not in flight; fetching
+192 silly cache add parsed spec Result {
+192 silly cache add   raw: 'is-buffer@^1.1.5',
+192 silly cache add   scope: null,
+192 silly cache add   name: 'is-buffer',
+192 silly cache add   rawSpec: '^1.1.5',
+192 silly cache add   spec: '>=1.1.5 <2.0.0',
+192 silly cache add   type: 'range' }
+193 silly addNamed is-buffer@>=1.1.5 <2.0.0
+194 verbose addNamed ">=1.1.5 <2.0.0" is a valid semver range for is-buffer
+195 silly addNameRange { name: 'is-buffer', range: '>=1.1.5 <2.0.0', hasData: false }
+196 silly mapToRegistry name is-buffer
+197 silly mapToRegistry using default registry
+198 silly mapToRegistry registry https://registry.npmjs.org/
+199 silly mapToRegistry data Result {
+199 silly mapToRegistry   raw: 'is-buffer',
+199 silly mapToRegistry   scope: null,
+199 silly mapToRegistry   name: 'is-buffer',
+199 silly mapToRegistry   rawSpec: '',
+199 silly mapToRegistry   spec: 'latest',
+199 silly mapToRegistry   type: 'tag' }
+200 silly mapToRegistry uri https://registry.npmjs.org/is-buffer
+201 verbose addNameRange registry:https://registry.npmjs.org/is-buffer not in flight; fetching
+202 verbose request uri https://registry.npmjs.org/follow-redirects
+203 verbose request no auth needed
+204 info attempt registry request try #1 at 6:38:18 PM
+205 http request GET https://registry.npmjs.org/follow-redirects
+206 http 200 https://registry.npmjs.org/follow-redirects
+207 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+207 verbose headers   server: 'AmazonS3',
+207 verbose headers   'cache-control': 'max-age=300',
+207 verbose headers   'last-modified': 'Wed, 24 Jan 2018 0:42:40 GMT',
+207 verbose headers   etag: '"5a67d680-ade1"',
+207 verbose headers   'x-npm-region': 'US-East',
+207 verbose headers   'content-encoding': 'gzip',
+207 verbose headers   'content-length': '6939',
+207 verbose headers   'accept-ranges': 'bytes',
+207 verbose headers   date: 'Mon, 12 Feb 2018 23:38:18 GMT',
+207 verbose headers   via: '1.1 varnish',
+207 verbose headers   age: '4767',
+207 verbose headers   connection: 'keep-alive',
+207 verbose headers   'x-served-by': 'cache-mia17622-MIA',
+207 verbose headers   'x-cache': 'HIT',
+207 verbose headers   'x-cache-hits': '3',
+207 verbose headers   'x-timer': 'S1518478698.277246,VS0,VE0',
+207 verbose headers   vary: 'Accept-Encoding, Accept' }
+208 silly get cb [ 200,
+208 silly get   { 'content-type': 'application/json; charset=UTF-8',
+208 silly get     server: 'AmazonS3',
+208 silly get     'cache-control': 'max-age=300',
+208 silly get     'last-modified': 'Wed, 24 Jan 2018 0:42:40 GMT',
+208 silly get     etag: '"5a67d680-ade1"',
+208 silly get     'x-npm-region': 'US-East',
+208 silly get     'content-encoding': 'gzip',
+208 silly get     'content-length': '6939',
+208 silly get     'accept-ranges': 'bytes',
+208 silly get     date: 'Mon, 12 Feb 2018 23:38:18 GMT',
+208 silly get     via: '1.1 varnish',
+208 silly get     age: '4767',
+208 silly get     connection: 'keep-alive',
+208 silly get     'x-served-by': 'cache-mia17622-MIA',
+208 silly get     'x-cache': 'HIT',
+208 silly get     'x-cache-hits': '3',
+208 silly get     'x-timer': 'S1518478698.277246,VS0,VE0',
+208 silly get     vary: 'Accept-Encoding, Accept' } ]
+209 verbose get saving follow-redirects to /Users/paolalarotta/.npm/registry.npmjs.org/follow-redirects/.cache.json
+210 verbose correctMkdir /Users/paolalarotta/.npm correctMkdir not in flight; initializing
+211 verbose request uri https://registry.npmjs.org/is-buffer
+212 verbose request no auth needed
+213 info attempt registry request try #1 at 6:38:18 PM
+214 verbose etag "5a6ed098-4965"
+215 verbose lastModified Mon, 29 Jan 2018 7:43:20 GMT
+216 http request GET https://registry.npmjs.org/is-buffer
+217 http 304 https://registry.npmjs.org/is-buffer
+218 verbose headers { date: 'Mon, 12 Feb 2018 23:38:18 GMT',
+218 verbose headers   via: '1.1 varnish',
+218 verbose headers   'cache-control': 'max-age=300',
+218 verbose headers   etag: '"5a6ed098-4965"',
+218 verbose headers   age: '6321',
+218 verbose headers   connection: 'keep-alive',
+218 verbose headers   'x-served-by': 'cache-mia17622-MIA',
+218 verbose headers   'x-cache': 'HIT',
+218 verbose headers   'x-cache-hits': '26',
+218 verbose headers   'x-timer': 'S1518478699.500611,VS0,VE0',
+218 verbose headers   vary: 'Accept-Encoding, Accept' }
+219 silly get cb [ 304,
+219 silly get   { date: 'Mon, 12 Feb 2018 23:38:18 GMT',
+219 silly get     via: '1.1 varnish',
+219 silly get     'cache-control': 'max-age=300',
+219 silly get     etag: '"5a6ed098-4965"',
+219 silly get     age: '6321',
+219 silly get     connection: 'keep-alive',
+219 silly get     'x-served-by': 'cache-mia17622-MIA',
+219 silly get     'x-cache': 'HIT',
+219 silly get     'x-cache-hits': '26',
+219 silly get     'x-timer': 'S1518478699.500611,VS0,VE0',
+219 silly get     vary: 'Accept-Encoding, Accept' } ]
+220 verbose etag https://registry.npmjs.org/is-buffer from cache
+221 verbose get saving is-buffer to /Users/paolalarotta/.npm/registry.npmjs.org/is-buffer/.cache.json
+222 verbose correctMkdir /Users/paolalarotta/.npm correctMkdir not in flight; initializing
+223 silly addNameRange number 2 { name: 'follow-redirects',
+223 silly addNameRange   range: '>=1.2.5 <2.0.0',
+223 silly addNameRange   hasData: true }
+224 silly addNameRange versions [ 'follow-redirects',
+224 silly addNameRange   [ '0.0.1',
+224 silly addNameRange     '0.0.2',
+224 silly addNameRange     '0.0.3',
+224 silly addNameRange     '0.0.4',
+224 silly addNameRange     '0.0.5',
+224 silly addNameRange     '0.0.6',
+224 silly addNameRange     '0.0.7',
+224 silly addNameRange     '0.1.0',
+224 silly addNameRange     '0.2.0',
+224 silly addNameRange     '0.3.0',
+224 silly addNameRange     '1.0.0',
+224 silly addNameRange     '1.1.0',
+224 silly addNameRange     '1.2.0',
+224 silly addNameRange     '1.2.1',
+224 silly addNameRange     '1.2.2',
+224 silly addNameRange     '1.2.3',
+224 silly addNameRange     '1.2.4',
+224 silly addNameRange     '1.2.5',
+224 silly addNameRange     '1.2.6',
+224 silly addNameRange     '1.3.0',
+224 silly addNameRange     '1.4.0',
+224 silly addNameRange     '1.4.1' ] ]
+225 silly addNamed follow-redirects@1.4.1
+226 verbose addNamed "1.4.1" is a plain semver version for follow-redirects
+227 silly mapToRegistry name follow-redirects
+228 silly mapToRegistry using default registry
+229 silly mapToRegistry registry https://registry.npmjs.org/
+230 silly mapToRegistry data Result {
+230 silly mapToRegistry   raw: 'follow-redirects',
+230 silly mapToRegistry   scope: null,
+230 silly mapToRegistry   name: 'follow-redirects',
+230 silly mapToRegistry   rawSpec: '',
+230 silly mapToRegistry   spec: 'latest',
+230 silly mapToRegistry   type: 'tag' }
+231 silly mapToRegistry uri https://registry.npmjs.org/follow-redirects
+232 verbose addRemoteTarball https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.4.1.tgz not in flight; adding
+233 verbose addRemoteTarball [ 'https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.4.1.tgz',
+233 verbose addRemoteTarball   'd8120f4518190f55aac65bb6fc7b85fcd666d6aa' ]
+234 info retry fetch attempt 1 at 6:38:18 PM
+235 info attempt registry request try #1 at 6:38:18 PM
+236 http fetch GET https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.4.1.tgz
+237 silly addNameRange number 2 { name: 'is-buffer', range: '>=1.1.5 <2.0.0', hasData: true }
+238 silly addNameRange versions [ 'is-buffer',
+238 silly addNameRange   [ '1.0.0',
+238 silly addNameRange     '1.0.1',
+238 silly addNameRange     '1.0.2',
+238 silly addNameRange     '1.1.0',
+238 silly addNameRange     '1.1.1',
+238 silly addNameRange     '1.1.2',
+238 silly addNameRange     '1.1.3',
+238 silly addNameRange     '1.1.4',
+238 silly addNameRange     '1.1.5',
+238 silly addNameRange     '1.1.6',
+238 silly addNameRange     '2.0.0' ] ]
+239 silly addNamed is-buffer@1.1.6
+240 verbose addNamed "1.1.6" is a plain semver version for is-buffer
+241 http fetch 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.4.1.tgz
+242 silly fetchAndShaCheck shasum d8120f4518190f55aac65bb6fc7b85fcd666d6aa
+243 verbose addTmpTarball /var/folders/nq/cq50d_017ps01vc8gys8dmw80000gn/T/npm-9997-3a7815f2/registry.npmjs.org/follow-redirects/-/follow-redirects-1.4.1.tgz not in flight; adding
+244 verbose addTmpTarball already have metadata; skipping unpack for follow-redirects@1.4.1
+245 verbose correctMkdir /Users/paolalarotta/.npm correctMkdir not in flight; initializing
+246 silly cache afterAdd follow-redirects@1.4.1
+247 verbose afterAdd /Users/paolalarotta/.npm/follow-redirects/1.4.1/package/package.json not in flight; writing
+248 verbose correctMkdir /Users/paolalarotta/.npm correctMkdir not in flight; initializing
+249 silly cache afterAdd is-buffer@1.1.6
+250 verbose afterAdd /Users/paolalarotta/.npm/is-buffer/1.1.6/package/package.json not in flight; writing
+251 verbose correctMkdir /Users/paolalarotta/.npm correctMkdir not in flight; initializing
+252 verbose afterAdd /Users/paolalarotta/.npm/follow-redirects/1.4.1/package/package.json written
+253 verbose afterAdd /Users/paolalarotta/.npm/is-buffer/1.1.6/package/package.json written
+254 silly install resolved [ { name: 'follow-redirects',
+254 silly install resolved     version: '1.4.1',
+254 silly install resolved     description: 'HTTP and HTTPS modules that follow redirects.',
+254 silly install resolved     main: 'index.js',
+254 silly install resolved     engines: { node: '>=4.0' },
+254 silly install resolved     scripts:
+254 silly install resolved      { test: 'npm run lint && npm run mocha',
+254 silly install resolved        lint: 'eslint *.js test',
+254 silly install resolved        mocha: 'nyc mocha' },
+254 silly install resolved     repository:
+254 silly install resolved      { type: 'git',
+254 silly install resolved        url: 'git+ssh://git@github.com/olalonde/follow-redirects.git' },
+254 silly install resolved     homepage: 'https://github.com/olalonde/follow-redirects',
+254 silly install resolved     bugs: { url: 'https://github.com/olalonde/follow-redirects/issues' },
+254 silly install resolved     keywords:
+254 silly install resolved      [ 'http',
+254 silly install resolved        'https',
+254 silly install resolved        'url',
+254 silly install resolved        'redirect',
+254 silly install resolved        'client',
+254 silly install resolved        'location',
+254 silly install resolved        'utility' ],
+254 silly install resolved     author:
+254 silly install resolved      { name: 'Olivier Lalonde',
+254 silly install resolved        email: 'olalonde@gmail.com',
+254 silly install resolved        url: 'http://www.syskall.com' },
+254 silly install resolved     contributors: [ [Object], [Object] ],
+254 silly install resolved     files: [ 'index.js', 'create.js', 'http.js', 'https.js' ],
+254 silly install resolved     dependencies: { debug: '^3.1.0' },
+254 silly install resolved     devDependencies:
+254 silly install resolved      { bluebird: '^3.5.1',
+254 silly install resolved        'concat-stream': '^1.6.0',
+254 silly install resolved        coveralls: '^3.0.0',
+254 silly install resolved        eslint: '^4.16.0',
+254 silly install resolved        express: '^4.16.2',
+254 silly install resolved        mocha: '^5.0.0',
+254 silly install resolved        nyc: '^11.4.1' },
+254 silly install resolved     license: 'MIT',
+254 silly install resolved     nyc: { reporter: [Object] },
+254 silly install resolved     gitHead: '1b6340f83ad5596a0a38c16a7113692bd90301f2',
+254 silly install resolved     _id: 'follow-redirects@1.4.1',
+254 silly install resolved     _npmVersion: '5.6.0',
+254 silly install resolved     _nodeVersion: '8.9.4',
+254 silly install resolved     _npmUser: { name: 'rubenverborgh', email: 'ruben.verborgh@gmail.com' },
+254 silly install resolved     dist:
+254 silly install resolved      { integrity: 'sha512-uxYePVPogtya1ktGnAAXOacnbIuRMB4dkvqeNz2qTtTQsuzSfbDolV+wMMKxAmCx0bLgAKLbBOkjItMbbkR1vg==',
+254 silly install resolved        shasum: 'd8120f4518190f55aac65bb6fc7b85fcd666d6aa',
+254 silly install resolved        tarball: 'https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.4.1.tgz' },
+254 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+254 silly install resolved     _npmOperationalInternal:
+254 silly install resolved      { host: 's3://npm-registry-packages',
+254 silly install resolved        tmp: 'tmp/follow-redirects-1.4.1.tgz_1516754560314_0.16931934002786875' },
+254 silly install resolved     directories: {},
+254 silly install resolved     _shasum: 'd8120f4518190f55aac65bb6fc7b85fcd666d6aa',
+254 silly install resolved     _resolved: 'https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.4.1.tgz',
+254 silly install resolved     _from: 'follow-redirects@>=1.2.5 <2.0.0' },
+254 silly install resolved   { name: 'is-buffer',
+254 silly install resolved     description: 'Determine if an object is a Buffer',
+254 silly install resolved     version: '1.1.6',
+254 silly install resolved     author:
+254 silly install resolved      { name: 'Feross Aboukhadijeh',
+254 silly install resolved        email: 'feross@feross.org',
+254 silly install resolved        url: 'http://feross.org/' },
+254 silly install resolved     bugs: { url: 'https://github.com/feross/is-buffer/issues' },
+254 silly install resolved     dependencies: {},
+254 silly install resolved     devDependencies: { standard: '*', tape: '^4.0.0', zuul: '^3.0.0' },
+254 silly install resolved     keywords:
+254 silly install resolved      [ 'buffer',
+254 silly install resolved        'buffers',
+254 silly install resolved        'type',
+254 silly install resolved        'core buffer',
+254 silly install resolved        'browser buffer',
+254 silly install resolved        'browserify',
+254 silly install resolved        'typed array',
+254 silly install resolved        'uint32array',
+254 silly install resolved        'int16array',
+254 silly install resolved        'int32array',
+254 silly install resolved        'float32array',
+254 silly install resolved        'float64array',
+254 silly install resolved        'browser',
+254 silly install resolved        'arraybuffer',
+254 silly install resolved        'dataview' ],
+254 silly install resolved     license: 'MIT',
+254 silly install resolved     main: 'index.js',
+254 silly install resolved     repository: { type: 'git', url: 'git://github.com/feross/is-buffer.git' },
+254 silly install resolved     scripts:
+254 silly install resolved      { test: 'standard && npm run test-node && npm run test-browser',
+254 silly install resolved        'test-browser': 'zuul -- test/*.js',
+254 silly install resolved        'test-browser-local': 'zuul --local -- test/*.js',
+254 silly install resolved        'test-node': 'tape test/*.js' },
+254 silly install resolved     testling: { files: 'test/*.js' },
+254 silly install resolved     gitHead: '1e84e7ee31cf6b660b12500f3111a05501da387f',
+254 silly install resolved     homepage: 'https://github.com/feross/is-buffer#readme',
+254 silly install resolved     _id: 'is-buffer@1.1.6',
+254 silly install resolved     _npmVersion: '5.5.1',
+254 silly install resolved     _nodeVersion: '8.6.0',
+254 silly install resolved     _npmUser: { name: 'feross', email: 'feross@feross.org' },
+254 silly install resolved     dist:
+254 silly install resolved      { integrity: 'sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==',
+254 silly install resolved        shasum: 'efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be',
+254 silly install resolved        tarball: 'https://registry.npmjs.org/is-buffer/-/is-buffer-1.1.6.tgz' },
+254 silly install resolved     maintainers: [ [Object] ],
+254 silly install resolved     _npmOperationalInternal:
+254 silly install resolved      { host: 's3://npm-registry-packages',
+254 silly install resolved        tmp: 'tmp/is-buffer-1.1.6.tgz_1508967388794_0.03916449216194451' },
+254 silly install resolved     directories: {},
+254 silly install resolved     _shasum: 'efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be',
+254 silly install resolved     _resolved: 'https://registry.npmjs.org/is-buffer/-/is-buffer-1.1.6.tgz',
+254 silly install resolved     _from: 'is-buffer@>=1.1.5 <2.0.0',
+254 silly install resolved     readme: 'ERROR: No README data found!' } ]
+255 info install follow-redirects@1.4.1 into /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios
+256 info install is-buffer@1.1.6 into /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios
+257 info installOne follow-redirects@1.4.1
+258 verbose installOne of follow-redirects to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios not in flight; installing
+259 verbose correctMkdir /Users/paolalarotta/.npm/_locks correctMkdir not in flight; initializing
+260 info installOne is-buffer@1.1.6
+261 verbose installOne of is-buffer to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios not in flight; installing
+262 verbose correctMkdir /Users/paolalarotta/.npm/_locks correctMkdir not in flight; initializing
+263 verbose lock using /Users/paolalarotta/.npm/_locks/follow-redirects-ad3be77497e4e540.lock for /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects
+264 verbose lock using /Users/paolalarotta/.npm/_locks/is-buffer-863b89aefefa87ae.lock for /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/is-buffer
+265 silly install write writing follow-redirects 1.4.1 to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects
+266 silly install write writing is-buffer 1.1.6 to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/is-buffer
+267 verbose unbuild node_modules/axios/node_modules/follow-redirects
+268 verbose unbuild node_modules/axios/node_modules/is-buffer
+269 silly gentlyRm /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects is being purged from base /Users/paolalarotta/Documents/Jonny/mercury
+270 verbose gentlyRm don't care about contents; nuking /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects
+271 silly gentlyRm /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/is-buffer is being purged from base /Users/paolalarotta/Documents/Jonny/mercury
+272 verbose gentlyRm don't care about contents; nuking /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/is-buffer
+273 verbose tar unpack /Users/paolalarotta/.npm/follow-redirects/1.4.1/package.tgz
+274 verbose tar unpacking to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects
+275 silly gentlyRm /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects is being purged
+276 verbose gentlyRm don't care about contents; nuking /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects
+277 verbose tar unpack /Users/paolalarotta/.npm/is-buffer/1.1.6/package.tgz
+278 verbose tar unpacking to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/is-buffer
+279 silly gentlyRm /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/is-buffer is being purged
+280 verbose gentlyRm don't care about contents; nuking /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/is-buffer
+281 silly gunzTarPerm modes [ '755', '644' ]
+282 silly gunzTarPerm modes [ '755', '644' ]
+283 silly gunzTarPerm extractEntry package.json
+284 silly gunzTarPerm extractEntry http.js
+285 silly gunzTarPerm extractEntry https.js
+286 silly gunzTarPerm extractEntry index.js
+287 silly gunzTarPerm extractEntry LICENSE
+288 silly gunzTarPerm extractEntry README.md
+289 silly gunzTarPerm extractEntry package.json
+290 verbose write writing to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/package.json
+291 silly gunzTarPerm extractEntry index.js
+292 silly gunzTarPerm extractEntry LICENSE
+293 info preinstall follow-redirects@1.4.1
+294 verbose readDependencies loading dependencies from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/package.json
+295 silly gunzTarPerm extractEntry README.md
+296 silly gunzTarPerm extractEntry test/basic.js
+297 silly prepareForInstallMany adding debug@^3.1.0 from follow-redirects dependencies
+298 verbose readDependencies loading dependencies from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/package.json
+299 silly cache add args [ 'debug@^3.1.0', null ]
+300 verbose cache add spec debug@^3.1.0
+301 silly cache add parsed spec Result {
+301 silly cache add   raw: 'debug@^3.1.0',
+301 silly cache add   scope: null,
+301 silly cache add   name: 'debug',
+301 silly cache add   rawSpec: '^3.1.0',
+301 silly cache add   spec: '>=3.1.0 <4.0.0',
+301 silly cache add   type: 'range' }
+302 silly addNamed debug@>=3.1.0 <4.0.0
+303 verbose addNamed ">=3.1.0 <4.0.0" is a valid semver range for debug
+304 silly addNameRange { name: 'debug', range: '>=3.1.0 <4.0.0', hasData: false }
+305 silly mapToRegistry name debug
+306 silly mapToRegistry using default registry
+307 silly mapToRegistry registry https://registry.npmjs.org/
+308 silly mapToRegistry data Result {
+308 silly mapToRegistry   raw: 'debug',
+308 silly mapToRegistry   scope: null,
+308 silly mapToRegistry   name: 'debug',
+308 silly mapToRegistry   rawSpec: '',
+308 silly mapToRegistry   spec: 'latest',
+308 silly mapToRegistry   type: 'tag' }
+309 silly mapToRegistry uri https://registry.npmjs.org/debug
+310 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+311 verbose write writing to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/is-buffer/package.json
+312 info preinstall is-buffer@1.1.6
+313 verbose readDependencies loading dependencies from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/is-buffer/package.json
+314 verbose request uri https://registry.npmjs.org/debug
+315 verbose request no auth needed
+316 info attempt registry request try #1 at 6:38:19 PM
+317 verbose etag "5a778edb-19369"
+318 verbose lastModified Sun, 4 Feb 2018 22:53:15 GMT
+319 http request GET https://registry.npmjs.org/debug
+320 verbose readDependencies loading dependencies from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/is-buffer/package.json
+321 silly install resolved []
+322 verbose about to build /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/is-buffer
+323 info build /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/is-buffer
+324 info linkStuff is-buffer@1.1.6
+325 silly linkStuff is-buffer@1.1.6 has /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules as its parent node_modules
+326 verbose linkBins is-buffer@1.1.6
+327 verbose linkMans is-buffer@1.1.6
+328 verbose rebuildBundles is-buffer@1.1.6
+329 info install is-buffer@1.1.6
+330 info postinstall is-buffer@1.1.6
+331 verbose unlock done using /Users/paolalarotta/.npm/_locks/is-buffer-863b89aefefa87ae.lock for /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/is-buffer
+332 http 200 https://registry.npmjs.org/debug
+333 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+333 verbose headers   server: 'UploadServer',
+333 verbose headers   'cache-control': 'max-age=300',
+333 verbose headers   'last-modified': 'Mon, 12 Feb 2018 16:04:20 GMT',
+333 verbose headers   etag: '"5a81bb04-193a4"',
+333 verbose headers   'x-npm-region': 'US-East',
+333 verbose headers   'content-encoding': 'gzip',
+333 verbose headers   'content-length': '17643',
+333 verbose headers   'accept-ranges': 'bytes',
+333 verbose headers   date: 'Mon, 12 Feb 2018 23:38:19 GMT',
+333 verbose headers   via: '1.1 varnish',
+333 verbose headers   age: '12832',
+333 verbose headers   connection: 'keep-alive',
+333 verbose headers   'x-served-by': 'cache-mia17622-MIA',
+333 verbose headers   'x-cache': 'HIT',
+333 verbose headers   'x-cache-hits': '164',
+333 verbose headers   'x-timer': 'S1518478700.623331,VS0,VE0',
+333 verbose headers   vary: 'Accept-Encoding, Accept' }
+334 silly get cb [ 200,
+334 silly get   { 'content-type': 'application/json; charset=UTF-8',
+334 silly get     server: 'UploadServer',
+334 silly get     'cache-control': 'max-age=300',
+334 silly get     'last-modified': 'Mon, 12 Feb 2018 16:04:20 GMT',
+334 silly get     etag: '"5a81bb04-193a4"',
+334 silly get     'x-npm-region': 'US-East',
+334 silly get     'content-encoding': 'gzip',
+334 silly get     'content-length': '17643',
+334 silly get     'accept-ranges': 'bytes',
+334 silly get     date: 'Mon, 12 Feb 2018 23:38:19 GMT',
+334 silly get     via: '1.1 varnish',
+334 silly get     age: '12832',
+334 silly get     connection: 'keep-alive',
+334 silly get     'x-served-by': 'cache-mia17622-MIA',
+334 silly get     'x-cache': 'HIT',
+334 silly get     'x-cache-hits': '164',
+334 silly get     'x-timer': 'S1518478700.623331,VS0,VE0',
+334 silly get     vary: 'Accept-Encoding, Accept' } ]
+335 verbose get saving debug to /Users/paolalarotta/.npm/registry.npmjs.org/debug/.cache.json
+336 verbose correctMkdir /Users/paolalarotta/.npm correctMkdir not in flight; initializing
+337 silly addNameRange number 2 { name: 'debug', range: '>=3.1.0 <4.0.0', hasData: true }
+338 silly addNameRange versions [ 'debug',
+338 silly addNameRange   [ '0.0.1',
+338 silly addNameRange     '0.1.0',
+338 silly addNameRange     '0.2.0',
+338 silly addNameRange     '0.3.0',
+338 silly addNameRange     '0.4.0',
+338 silly addNameRange     '0.4.1',
+338 silly addNameRange     '0.5.0',
+338 silly addNameRange     '0.6.0',
+338 silly addNameRange     '0.7.0',
+338 silly addNameRange     '0.7.1',
+338 silly addNameRange     '0.7.2',
+338 silly addNameRange     '0.7.3',
+338 silly addNameRange     '0.7.4',
+338 silly addNameRange     '0.8.0',
+338 silly addNameRange     '0.8.1',
+338 silly addNameRange     '1.0.0',
+338 silly addNameRange     '1.0.1',
+338 silly addNameRange     '1.0.2',
+338 silly addNameRange     '1.0.3',
+338 silly addNameRange     '1.0.4',
+338 silly addNameRange     '2.0.0',
+338 silly addNameRange     '2.1.0',
+338 silly addNameRange     '2.1.1',
+338 silly addNameRange     '2.1.2',
+338 silly addNameRange     '2.1.3',
+338 silly addNameRange     '2.2.0',
+338 silly addNameRange     '2.3.0',
+338 silly addNameRange     '2.3.1',
+338 silly addNameRange     '2.3.2',
+338 silly addNameRange     '2.3.3',
+338 silly addNameRange     '2.4.0',
+338 silly addNameRange     '2.4.1',
+338 silly addNameRange     '2.4.2',
+338 silly addNameRange     '2.4.3',
+338 silly addNameRange     '2.4.4',
+338 silly addNameRange     '2.4.5',
+338 silly addNameRange     '2.5.0',
+338 silly addNameRange     '2.5.1',
+338 silly addNameRange     '2.5.2',
+338 silly addNameRange     '2.6.0',
+338 silly addNameRange     '2.6.1',
+338 silly addNameRange     '2.6.2',
+338 silly addNameRange     '2.6.3',
+338 silly addNameRange     '2.6.4',
+338 silly addNameRange     '2.6.5',
+338 silly addNameRange     '2.6.6',
+338 silly addNameRange     '2.6.7',
+338 silly addNameRange     '2.6.8',
+338 silly addNameRange     '1.0.5',
+338 silly addNameRange     '3.0.0',
+338 silly addNameRange     '3.0.1',
+338 silly addNameRange     '2.6.9',
+338 silly addNameRange     '3.1.0' ] ]
+339 silly addNamed debug@3.1.0
+340 verbose addNamed "3.1.0" is a plain semver version for debug
+341 silly cache afterAdd debug@3.1.0
+342 verbose afterAdd /Users/paolalarotta/.npm/debug/3.1.0/package/package.json not in flight; writing
+343 verbose correctMkdir /Users/paolalarotta/.npm correctMkdir not in flight; initializing
+344 verbose afterAdd /Users/paolalarotta/.npm/debug/3.1.0/package/package.json written
+345 silly install resolved [ { name: 'debug',
+345 silly install resolved     version: '3.1.0',
+345 silly install resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+345 silly install resolved     description: 'small debugging utility',
+345 silly install resolved     keywords: [ 'debug', 'log', 'debugger' ],
+345 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+345 silly install resolved     contributors: [ [Object], [Object] ],
+345 silly install resolved     license: 'MIT',
+345 silly install resolved     dependencies: { ms: '2.0.0' },
+345 silly install resolved     devDependencies:
+345 silly install resolved      { browserify: '14.4.0',
+345 silly install resolved        chai: '^3.5.0',
+345 silly install resolved        concurrently: '^3.1.0',
+345 silly install resolved        coveralls: '^2.11.15',
+345 silly install resolved        eslint: '^3.12.1',
+345 silly install resolved        istanbul: '^0.4.5',
+345 silly install resolved        karma: '^1.3.0',
+345 silly install resolved        'karma-chai': '^0.1.0',
+345 silly install resolved        'karma-mocha': '^1.3.0',
+345 silly install resolved        'karma-phantomjs-launcher': '^1.0.2',
+345 silly install resolved        'karma-sinon': '^1.0.5',
+345 silly install resolved        mocha: '^3.2.0',
+345 silly install resolved        'mocha-lcov-reporter': '^1.2.0',
+345 silly install resolved        rimraf: '^2.5.4',
+345 silly install resolved        sinon: '^1.17.6',
+345 silly install resolved        'sinon-chai': '^2.8.0' },
+345 silly install resolved     main: './src/index.js',
+345 silly install resolved     browser: './src/browser.js',
+345 silly install resolved     gitHead: 'f073e056f33efdd5b311381eb6bca2bc850745bf',
+345 silly install resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+345 silly install resolved     homepage: 'https://github.com/visionmedia/debug#readme',
+345 silly install resolved     _id: 'debug@3.1.0',
+345 silly install resolved     _npmVersion: '5.3.0',
+345 silly install resolved     _nodeVersion: '8.4.0',
+345 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+345 silly install resolved     dist:
+345 silly install resolved      { integrity: 'sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==',
+345 silly install resolved        shasum: '5bb5a0672628b64149566ba16819e61518c67261',
+345 silly install resolved        tarball: 'https://registry.npmjs.org/debug/-/debug-3.1.0.tgz' },
+345 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+345 silly install resolved     _npmOperationalInternal:
+345 silly install resolved      { host: 's3://npm-registry-packages',
+345 silly install resolved        tmp: 'tmp/debug-3.1.0.tgz_1506453230282_0.13498495938256383' },
+345 silly install resolved     directories: {},
+345 silly install resolved     _shasum: '5bb5a0672628b64149566ba16819e61518c67261',
+345 silly install resolved     _resolved: 'https://registry.npmjs.org/debug/-/debug-3.1.0.tgz',
+345 silly install resolved     _from: 'debug@>=3.1.0 <4.0.0',
+345 silly install resolved     readme: 'ERROR: No README data found!' } ]
+346 info install debug@3.1.0 into /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects
+347 info installOne debug@3.1.0
+348 verbose installOne of debug to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects not in flight; installing
+349 verbose correctMkdir /Users/paolalarotta/.npm/_locks correctMkdir not in flight; initializing
+350 verbose lock using /Users/paolalarotta/.npm/_locks/debug-c85a9c4354b4ba67.lock for /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+351 silly install write writing debug 3.1.0 to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+352 verbose unbuild node_modules/axios/node_modules/follow-redirects/node_modules/debug
+353 silly gentlyRm /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug is being purged from base /Users/paolalarotta/Documents/Jonny/mercury
+354 verbose gentlyRm don't care about contents; nuking /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+355 verbose tar unpack /Users/paolalarotta/.npm/debug/3.1.0/package.tgz
+356 verbose tar unpacking to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+357 silly gentlyRm /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug is being purged
+358 verbose gentlyRm don't care about contents; nuking /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+359 silly gunzTarPerm modes [ '755', '644' ]
+360 silly gunzTarPerm extractEntry package.json
+361 silly gunzTarPerm extractEntry .npmignore
+362 silly gunzTarPerm extractEntry README.md
+363 silly gunzTarPerm extractEntry LICENSE
+364 silly gunzTarPerm extractEntry karma.conf.js
+365 silly gunzTarPerm extractEntry node.js
+366 silly gunzTarPerm extractEntry .eslintrc
+367 silly gunzTarPerm extractEntry Makefile
+368 silly gunzTarPerm extractEntry .coveralls.yml
+369 silly gunzTarPerm extractEntry .travis.yml
+370 silly gunzTarPerm extractEntry CHANGELOG.md
+371 silly gunzTarPerm extractEntry src/browser.js
+372 silly gunzTarPerm extractEntry src/debug.js
+373 silly gunzTarPerm extractEntry src/index.js
+374 silly gunzTarPerm extractEntry src/node.js
+375 verbose write writing to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug/package.json
+376 info preinstall debug@3.1.0
+377 verbose readDependencies loading dependencies from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug/package.json
+378 silly prepareForInstallMany adding ms@2.0.0 from debug dependencies
+379 verbose readDependencies loading dependencies from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug/package.json
+380 silly cache add args [ 'ms@2.0.0', null ]
+381 verbose cache add spec ms@2.0.0
+382 silly cache add parsed spec Result {
+382 silly cache add   raw: 'ms@2.0.0',
+382 silly cache add   scope: null,
+382 silly cache add   name: 'ms',
+382 silly cache add   rawSpec: '2.0.0',
+382 silly cache add   spec: '2.0.0',
+382 silly cache add   type: 'version' }
+383 silly addNamed ms@2.0.0
+384 verbose addNamed "2.0.0" is a plain semver version for ms
+385 silly mapToRegistry name ms
+386 silly mapToRegistry using default registry
+387 silly mapToRegistry registry https://registry.npmjs.org/
+388 silly mapToRegistry data Result {
+388 silly mapToRegistry   raw: 'ms',
+388 silly mapToRegistry   scope: null,
+388 silly mapToRegistry   name: 'ms',
+388 silly mapToRegistry   rawSpec: '',
+388 silly mapToRegistry   spec: 'latest',
+388 silly mapToRegistry   type: 'tag' }
+389 silly mapToRegistry uri https://registry.npmjs.org/ms
+390 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+391 verbose request uri https://registry.npmjs.org/ms
+392 verbose request no auth needed
+393 info attempt registry request try #1 at 6:38:19 PM
+394 verbose etag "5a74cafa-4937"
+395 verbose lastModified Fri, 2 Feb 2018 20:32:58 GMT
+396 http request GET https://registry.npmjs.org/ms
+397 http 304 https://registry.npmjs.org/ms
+398 verbose headers { date: 'Mon, 12 Feb 2018 23:38:19 GMT',
+398 verbose headers   via: '1.1 varnish',
+398 verbose headers   'cache-control': 'max-age=300',
+398 verbose headers   etag: '"5a74cafa-4937"',
+398 verbose headers   age: '9851',
+398 verbose headers   connection: 'keep-alive',
+398 verbose headers   'x-served-by': 'cache-mia17622-MIA',
+398 verbose headers   'x-cache': 'HIT',
+398 verbose headers   'x-cache-hits': '87',
+398 verbose headers   'x-timer': 'S1518478700.982986,VS0,VE0',
+398 verbose headers   vary: 'Accept-Encoding, Accept' }
+399 silly get cb [ 304,
+399 silly get   { date: 'Mon, 12 Feb 2018 23:38:19 GMT',
+399 silly get     via: '1.1 varnish',
+399 silly get     'cache-control': 'max-age=300',
+399 silly get     etag: '"5a74cafa-4937"',
+399 silly get     age: '9851',
+399 silly get     connection: 'keep-alive',
+399 silly get     'x-served-by': 'cache-mia17622-MIA',
+399 silly get     'x-cache': 'HIT',
+399 silly get     'x-cache-hits': '87',
+399 silly get     'x-timer': 'S1518478700.982986,VS0,VE0',
+399 silly get     vary: 'Accept-Encoding, Accept' } ]
+400 verbose etag https://registry.npmjs.org/ms from cache
+401 verbose get saving ms to /Users/paolalarotta/.npm/registry.npmjs.org/ms/.cache.json
+402 verbose correctMkdir /Users/paolalarotta/.npm correctMkdir not in flight; initializing
+403 silly cache afterAdd ms@2.0.0
+404 verbose afterAdd /Users/paolalarotta/.npm/ms/2.0.0/package/package.json not in flight; writing
+405 verbose correctMkdir /Users/paolalarotta/.npm correctMkdir not in flight; initializing
+406 verbose afterAdd /Users/paolalarotta/.npm/ms/2.0.0/package/package.json written
+407 silly install resolved [ { name: 'ms',
+407 silly install resolved     version: '2.0.0',
+407 silly install resolved     description: 'Tiny milisecond conversion utility',
+407 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/zeit/ms.git' },
+407 silly install resolved     main: './index',
+407 silly install resolved     files: [ 'index.js' ],
+407 silly install resolved     scripts:
+407 silly install resolved      { precommit: 'lint-staged',
+407 silly install resolved        lint: 'eslint lib/* bin/*',
+407 silly install resolved        test: 'mocha tests.js' },
+407 silly install resolved     eslintConfig: { extends: 'eslint:recommended', env: [Object] },
+407 silly install resolved     'lint-staged': { '*.js': [Object] },
+407 silly install resolved     license: 'MIT',
+407 silly install resolved     devDependencies:
+407 silly install resolved      { eslint: '3.19.0',
+407 silly install resolved        'expect.js': '0.3.1',
+407 silly install resolved        husky: '0.13.3',
+407 silly install resolved        'lint-staged': '3.4.1',
+407 silly install resolved        mocha: '3.4.1' },
+407 silly install resolved     gitHead: '9b88d1568a52ec9bb67ecc8d2aa224fa38fd41f4',
+407 silly install resolved     bugs: { url: 'https://github.com/zeit/ms/issues' },
+407 silly install resolved     homepage: 'https://github.com/zeit/ms#readme',
+407 silly install resolved     _id: 'ms@2.0.0',
+407 silly install resolved     _shasum: '5608aeadfc00be6c2901df5f9861788de0d597c8',
+407 silly install resolved     _from: 'ms@2.0.0',
+407 silly install resolved     _npmVersion: '4.2.0',
+407 silly install resolved     _nodeVersion: '7.8.0',
+407 silly install resolved     _npmUser: { name: 'leo', email: 'leo@zeit.co' },
+407 silly install resolved     dist:
+407 silly install resolved      { shasum: '5608aeadfc00be6c2901df5f9861788de0d597c8',
+407 silly install resolved        tarball: 'https://registry.npmjs.org/ms/-/ms-2.0.0.tgz' },
+407 silly install resolved     maintainers: [ [Object], [Object] ],
+407 silly install resolved     _npmOperationalInternal:
+407 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+407 silly install resolved        tmp: 'tmp/ms-2.0.0.tgz_1494937565215_0.34005374647676945' },
+407 silly install resolved     directories: {},
+407 silly install resolved     _resolved: 'https://registry.npmjs.org/ms/-/ms-2.0.0.tgz',
+407 silly install resolved     readme: 'ERROR: No README data found!' } ]
+408 info install ms@2.0.0 into /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+409 info installOne ms@2.0.0
+410 verbose installOne of ms to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug not in flight; installing
+411 verbose correctMkdir /Users/paolalarotta/.npm/_locks correctMkdir not in flight; initializing
+412 verbose lock using /Users/paolalarotta/.npm/_locks/ms-ed0049df6a899569.lock for /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+413 silly install write writing ms 2.0.0 to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+414 verbose unbuild node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+415 silly gentlyRm /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms is being purged from base /Users/paolalarotta/Documents/Jonny/mercury
+416 verbose gentlyRm don't care about contents; nuking /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+417 verbose tar unpack /Users/paolalarotta/.npm/ms/2.0.0/package.tgz
+418 verbose tar unpacking to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+419 silly gentlyRm /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms is being purged
+420 verbose gentlyRm don't care about contents; nuking /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+421 silly gunzTarPerm modes [ '755', '644' ]
+422 silly gunzTarPerm extractEntry package.json
+423 silly gunzTarPerm extractEntry index.js
+424 silly gunzTarPerm extractEntry license.md
+425 silly gunzTarPerm extractEntry readme.md
+426 verbose write writing to /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms/package.json
+427 info preinstall ms@2.0.0
+428 verbose readDependencies loading dependencies from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms/package.json
+429 verbose readDependencies loading dependencies from /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms/package.json
+430 silly install resolved []
+431 verbose about to build /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+432 info build /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+433 info linkStuff ms@2.0.0
+434 silly linkStuff ms@2.0.0 has /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules as its parent node_modules
+435 verbose linkBins ms@2.0.0
+436 verbose linkMans ms@2.0.0
+437 verbose rebuildBundles ms@2.0.0
+438 info install ms@2.0.0
+439 info postinstall ms@2.0.0
+440 verbose unlock done using /Users/paolalarotta/.npm/_locks/ms-ed0049df6a899569.lock for /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug/node_modules/ms
+441 verbose about to build /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+442 info build /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+443 info linkStuff debug@3.1.0
+444 silly linkStuff debug@3.1.0 has /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules as its parent node_modules
+445 verbose linkBins debug@3.1.0
+446 verbose linkMans debug@3.1.0
+447 verbose rebuildBundles debug@3.1.0
+448 verbose rebuildBundles [ 'ms' ]
+449 info install debug@3.1.0
+450 info postinstall debug@3.1.0
+451 verbose unlock done using /Users/paolalarotta/.npm/_locks/debug-c85a9c4354b4ba67.lock for /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects/node_modules/debug
+452 verbose about to build /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects
+453 info build /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects
+454 info linkStuff follow-redirects@1.4.1
+455 silly linkStuff follow-redirects@1.4.1 has /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules as its parent node_modules
+456 verbose linkBins follow-redirects@1.4.1
+457 verbose linkMans follow-redirects@1.4.1
+458 verbose rebuildBundles follow-redirects@1.4.1
+459 verbose rebuildBundles [ 'debug' ]
+460 info install follow-redirects@1.4.1
+461 info postinstall follow-redirects@1.4.1
+462 verbose unlock done using /Users/paolalarotta/.npm/_locks/follow-redirects-ad3be77497e4e540.lock for /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios/node_modules/follow-redirects
+463 verbose about to build /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios
+464 info build /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios
+465 info linkStuff axios@0.17.1
+466 silly linkStuff axios@0.17.1 has /Users/paolalarotta/Documents/Jonny/mercury/node_modules as its parent node_modules
+467 verbose linkBins axios@0.17.1
+468 verbose linkMans axios@0.17.1
+469 verbose rebuildBundles axios@0.17.1
+470 verbose rebuildBundles [ 'follow-redirects', 'is-buffer' ]
+471 info install axios@0.17.1
+472 info postinstall axios@0.17.1
+473 verbose unlock done using /Users/paolalarotta/.npm/_locks/axios-eb70a233d24573aa.lock for /Users/paolalarotta/Documents/Jonny/mercury/node_modules/axios
+474 info build /Users/paolalarotta/Documents/Jonny/mercury
+475 info linkStuff AlcaldiaTocaima@1.0.0
+476 silly linkStuff AlcaldiaTocaima@1.0.0 has /Users/paolalarotta/Documents/Jonny as its parent node_modules
+477 verbose linkBins AlcaldiaTocaima@1.0.0
+478 verbose linkMans AlcaldiaTocaima@1.0.0
+479 verbose rebuildBundles AlcaldiaTocaima@1.0.0
+480 verbose rebuildBundles [ '.bin',
+480 verbose rebuildBundles   'axios',
+480 verbose rebuildBundles   'babel-core',
+480 verbose rebuildBundles   'babel-loader',
+480 verbose rebuildBundles   'babel-preset-es2015',
+480 verbose rebuildBundles   'babel-preset-react',
+480 verbose rebuildBundles   'css-loader',
+480 verbose rebuildBundles   'file-loader',
+480 verbose rebuildBundles   'html-webpack-plugin',
+480 verbose rebuildBundles   'node-sass',
+480 verbose rebuildBundles   'path',
+480 verbose rebuildBundles   'react',
+480 verbose rebuildBundles   'react-dom',
+480 verbose rebuildBundles   'react-image-gallery',
+480 verbose rebuildBundles   'react-owl-carousel',
+480 verbose rebuildBundles   'react-router',
+480 verbose rebuildBundles   'react-router-dom',
+480 verbose rebuildBundles   'sass-loader',
+480 verbose rebuildBundles   'style-loader',
+480 verbose rebuildBundles   'webpack',
+480 verbose rebuildBundles   'webpack-dev-server' ]
+481 info install AlcaldiaTocaima@1.0.0
+482 info postinstall AlcaldiaTocaima@1.0.0
+483 info prepublish AlcaldiaTocaima@1.0.0
+484 verbose validateInstall loading /Users/paolalarotta/Documents/Jonny/mercury/package.json for validation
+485 verbose stack Error: The package react@16.2.0 does not satisfy its siblings' peerDependencies requirements!
+485 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+485 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+485 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+485 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+485 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+485 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+485 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+485 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+485 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+485 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+486 verbose cwd /Users/paolalarotta/Documents/Jonny/mercury
+487 error Darwin 17.3.0
+488 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "instal"
+489 error node v4.4.7
+490 error npm  v2.15.8
+491 error code EPEERINVALID
+492 error peerinvalid The package react@16.2.0 does not satisfy its siblings' peerDependencies requirements!
+492 error peerinvalid Peer react-dom@16.2.0 wants react@^16.0.0
+492 error peerinvalid Peer react-owl-carousel@2.2.0 wants react@^0.14.0 || ^15.0.0
+492 error peerinvalid Peer react-router@4.2.0 wants react@>=15
+492 error peerinvalid Peer react-router-dom@4.2.2 wants react@>=15
+493 verbose exit [ 1, true ]

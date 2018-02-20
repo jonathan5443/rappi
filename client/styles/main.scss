@@ -1,0 +1,293 @@
+@import "node_modules/react-image-gallery/styles/scss/image-gallery.scss";
+@import "./grid.scss";
+
+//General
+.contentWrapper {
+  background-color: #ffffff;
+}
+
+//Header
+header {
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 0 0 0 0;
+  .top-bar {
+    background: #e6e6e6;
+    margin: 0;
+    margin: 0 0 20px 0;
+    ul {
+      padding: 0;
+      li {
+        display: inline;
+        padding: 0 10px;
+      }
+    }
+  }
+  h1 {
+    margin-top: 0px;
+    font-size: 25px;
+    padding: 0;
+    font-weight: normal;
+  }
+  span {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+
+  .search{
+    padding-top: 10px;
+  }
+
+  .search_text{
+    width: 100%;
+    margin-left: 10px;
+    height: 30px;
+  }
+
+
+  .search_icon{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-left: 15px;
+  }
+
+  .colombia{
+    padding: 0 5px 0 5px;
+    width: 40px;
+    height: 50px
+  }
+
+  .social {
+      margin: 0;
+      padding: 0 10px 0 5px;
+      margin-right: 10px;
+      border-left: 1px solid #cdcdcd;
+    .networks{
+      width: 30%;
+      margin: 0;
+    }
+    .city_photo {
+      position: absolute;
+      top: -20px;
+      right: 0;
+    }
+  .row networks{
+    margin: 0 50px 0px 50px;
+  }
+  }
+}
+
+//Navbar
+nav {
+  background-color: #707274;
+  margin: 0;
+  ul {
+    padding: 0;
+    li {
+      display: inline;
+      padding: 0 18px;
+      margin: 0;
+      span {
+        color: #ffffff;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    }
+  }
+  .active {
+    text-decoration: underline;
+    color: white;
+  }
+  .TabBar{
+    margin: 0 8px ;
+  }
+}
+
+//Footer
+footer {
+  background-color: #242122;
+  height: 200px;
+  padding: 60px 0 10px 0;
+  p {
+    color: #ffffff;
+    font-size: 13px;
+  }
+  h3,
+  span {
+    color: #939393;
+    padding-bottom: 10px;
+    font-size: 13px;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .image_footer{
+    height: 25px;
+    width: 80px;
+    margin: 8px 0 0 0;
+    text-align: center;
+  }
+  .second_row{
+    margin: 70px 0px 0px 0px;
+  }
+
+  .map{
+    height: 150px;
+    width: 300px;
+  }
+}
+
+//Main page
+
+.main-page{
+  padding: 0 10px 30px 0px;
+  h1 {
+    color: #707274;
+    font-size: 25px;
+    
+    img{
+      padding-right: 15px;
+      padding-bottom: 5px;
+      margin: 0;
+      display: inline;
+    }
+  }
+
+  img{
+    margin: 20px auto;
+    display: block;
+  }
+  ul {
+    padding: 0;
+    list-style: none;
+    li {
+      padding: 15px 18px;
+      margin: 0;
+      border-bottom: 1px solid #acacac;
+      span {
+        font-size: 14px;
+        cursor: pointer;
+      }
+      &:hover{
+        background:#e5e5e5
+      }
+    }
+  }
+}
+
+//Image carousel
+.imageCarousel {
+  background-color: #e6e6e6;
+  padding: 15px;
+  max-width: 97%;
+  margin-bottom: 30px;
+}
+
+//Slider
+.slider {
+  margin: 30px 0;
+  .col-9,
+  .col-3 {
+    margin: 0;
+  }
+  .col-9 {
+    margin-right: 4%;
+  }
+
+  .people{ 
+  }
+}
+
+//Gallery
+.image-gallery {
+  width: 80%;
+  margin: 0 auto;
+  background-color: black;
+  margin-bottom: 30px;
+}
+.gallery {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  h2 {
+    margin: 20px 0;
+  }
+  h4 {
+    margin: 20px 0;
+  }
+
+  h1 {
+    color: #707274;
+    font-size: 25px;
+    
+    img{
+      padding-right: 15px;
+      padding-bottom: 5px;
+    }
+  }
+
+  .search_text{
+    margin-top: 50px;
+    width: 400px;
+    height: 30px;
+  }
+
+}
+
+//Breadcrum
+
+.breadcrumb-container{
+  ul{
+    list-style: none;
+    padding: 0;
+    li{
+      padding: 0 10px 0 0;
+      display: inline;
+      cursor: pointer;
+      font-size: 11px;
+    }
+    .separator{
+      margin: 0 0 0 10px;
+    }
+  }
+
+}
+//List
+
+.list {
+  width: 104%;
+  left: -2%;
+  position: relative;
+  margin-bottom: 30px;
+  .list-item {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    p{
+      min-height: 45px;
+    }
+    .img-container{
+      height: 130px;
+      overflow: hidden;
+      img {
+        max-width: 100%;
+      }
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 15px;
+      line-height: 15px;
+      font-weight: 500;
+    }
+  }
+}
+
