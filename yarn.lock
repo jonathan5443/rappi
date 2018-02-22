@@ -242,11 +242,11 @@ aws4@^1.2.1, aws4@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.6.0.tgz#83ef5ca860b2b32e4a0deedee8c771b9db57471e"
 
-axios@^0.17.1:
-  version "0.17.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.17.1.tgz#2d8e3e5d0bdbd7327f91bc814f5c57660f81824d"
+axios@^0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.0.tgz#32d53e4851efdc0a11993b6cd000789d70c05102"
   dependencies:
-    follow-redirects "^1.2.5"
+    follow-redirects "^1.3.0"
     is-buffer "^1.1.5"
 
 babel-code-frame@^6.11.0, babel-code-frame@^6.26.0:
@@ -294,6 +294,14 @@ babel-generator@^6.26.0:
     source-map "^0.5.6"
     trim-right "^1.0.1"
 
+babel-helper-builder-binary-assignment-operator-visitor@^6.24.1:
+  version "6.24.1"
+  resolved "https://registry.yarnpkg.com/babel-helper-builder-binary-assignment-operator-visitor/-/babel-helper-builder-binary-assignment-operator-visitor-6.24.1.tgz#cce4517ada356f4220bcae8a02c2b346f9a56664"
+  dependencies:
+    babel-helper-explode-assignable-expression "^6.24.1"
+    babel-runtime "^6.22.0"
+    babel-types "^6.24.1"
+
 babel-helper-builder-react-jsx@^6.24.1:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-helper-builder-react-jsx/-/babel-helper-builder-react-jsx-6.26.0.tgz#39ff8313b75c8b65dceff1f31d383e0ff2a408a0"
@@ -319,6 +327,14 @@ babel-helper-define-map@^6.24.1:
     babel-runtime "^6.26.0"
     babel-types "^6.26.0"
     lodash "^4.17.4"
+
+babel-helper-explode-assignable-expression@^6.24.1:
+  version "6.24.1"
+  resolved "https://registry.yarnpkg.com/babel-helper-explode-assignable-expression/-/babel-helper-explode-assignable-expression-6.24.1.tgz#f25b82cf7dc10433c55f70592d5746400ac22caa"
+  dependencies:
+    babel-runtime "^6.22.0"
+    babel-traverse "^6.24.1"
+    babel-types "^6.24.1"
 
 babel-helper-function-name@^6.24.1:
   version "6.24.1"
@@ -359,6 +375,16 @@ babel-helper-regex@^6.24.1:
     babel-types "^6.26.0"
     lodash "^4.17.4"
 
+babel-helper-remap-async-to-generator@^6.24.1:
+  version "6.24.1"
+  resolved "https://registry.yarnpkg.com/babel-helper-remap-async-to-generator/-/babel-helper-remap-async-to-generator-6.24.1.tgz#5ec581827ad723fecdd381f1c928390676e4551b"
+  dependencies:
+    babel-helper-function-name "^6.24.1"
+    babel-runtime "^6.22.0"
+    babel-template "^6.24.1"
+    babel-traverse "^6.24.1"
+    babel-types "^6.24.1"
+
 babel-helper-replace-supers@^6.24.1:
   version "6.24.1"
   resolved "https://registry.yarnpkg.com/babel-helper-replace-supers/-/babel-helper-replace-supers-6.24.1.tgz#bf6dbfe43938d17369a213ca8a8bf74b6a90ab1a"
@@ -397,6 +423,18 @@ babel-plugin-check-es2015-constants@^6.22.0:
   dependencies:
     babel-runtime "^6.22.0"
 
+babel-plugin-syntax-async-functions@^6.8.0:
+  version "6.13.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-async-functions/-/babel-plugin-syntax-async-functions-6.13.0.tgz#cad9cad1191b5ad634bf30ae0872391e0647be95"
+
+babel-plugin-syntax-async-generators@^6.5.0:
+  version "6.13.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-async-generators/-/babel-plugin-syntax-async-generators-6.13.0.tgz#6bc963ebb16eccbae6b92b596eb7f35c342a8b9a"
+
+babel-plugin-syntax-exponentiation-operator@^6.8.0:
+  version "6.13.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-exponentiation-operator/-/babel-plugin-syntax-exponentiation-operator-6.13.0.tgz#9ee7e8337290da95288201a6a57f4170317830de"
+
 babel-plugin-syntax-flow@^6.18.0:
   version "6.18.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-flow/-/babel-plugin-syntax-flow-6.18.0.tgz#4c3ab20a2af26aa20cd25995c398c4eb70310c8d"
@@ -404,6 +442,30 @@ babel-plugin-syntax-flow@^6.18.0:
 babel-plugin-syntax-jsx@^6.3.13, babel-plugin-syntax-jsx@^6.8.0:
   version "6.18.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.18.0.tgz#0af32a9a6e13ca7a3fd5069e62d7b0f58d0d8946"
+
+babel-plugin-syntax-object-rest-spread@^6.8.0:
+  version "6.13.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-object-rest-spread/-/babel-plugin-syntax-object-rest-spread-6.13.0.tgz#fd6536f2bce13836ffa3a5458c4903a597bb3bf5"
+
+babel-plugin-syntax-trailing-function-commas@^6.22.0:
+  version "6.22.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-trailing-function-commas/-/babel-plugin-syntax-trailing-function-commas-6.22.0.tgz#ba0360937f8d06e40180a43fe0d5616fff532cf3"
+
+babel-plugin-transform-async-generator-functions@^6.24.1:
+  version "6.24.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-async-generator-functions/-/babel-plugin-transform-async-generator-functions-6.24.1.tgz#f058900145fd3e9907a6ddf28da59f215258a5db"
+  dependencies:
+    babel-helper-remap-async-to-generator "^6.24.1"
+    babel-plugin-syntax-async-generators "^6.5.0"
+    babel-runtime "^6.22.0"
+
+babel-plugin-transform-async-to-generator@^6.24.1:
+  version "6.24.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-async-to-generator/-/babel-plugin-transform-async-to-generator-6.24.1.tgz#6536e378aff6cb1d5517ac0e40eb3e9fc8d08761"
+  dependencies:
+    babel-helper-remap-async-to-generator "^6.24.1"
+    babel-plugin-syntax-async-functions "^6.8.0"
+    babel-runtime "^6.22.0"
 
 babel-plugin-transform-es2015-arrow-functions@^6.22.0:
   version "6.22.0"
@@ -573,12 +635,27 @@ babel-plugin-transform-es2015-unicode-regex@^6.24.1:
     babel-runtime "^6.22.0"
     regexpu-core "^2.0.0"
 
+babel-plugin-transform-exponentiation-operator@^6.24.1:
+  version "6.24.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-exponentiation-operator/-/babel-plugin-transform-exponentiation-operator-6.24.1.tgz#2ab0c9c7f3098fa48907772bb813fe41e8de3a0e"
+  dependencies:
+    babel-helper-builder-binary-assignment-operator-visitor "^6.24.1"
+    babel-plugin-syntax-exponentiation-operator "^6.8.0"
+    babel-runtime "^6.22.0"
+
 babel-plugin-transform-flow-strip-types@^6.22.0:
   version "6.22.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-flow-strip-types/-/babel-plugin-transform-flow-strip-types-6.22.0.tgz#84cb672935d43714fdc32bce84568d87441cf7cf"
   dependencies:
     babel-plugin-syntax-flow "^6.18.0"
     babel-runtime "^6.22.0"
+
+babel-plugin-transform-object-rest-spread@^6.22.0:
+  version "6.26.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-object-rest-spread/-/babel-plugin-transform-object-rest-spread-6.26.0.tgz#0f36692d50fef6b7e2d4b3ac1478137a963b7b06"
+  dependencies:
+    babel-plugin-syntax-object-rest-spread "^6.8.0"
+    babel-runtime "^6.26.0"
 
 babel-plugin-transform-react-display-name@^6.23.0:
   version "6.25.0"
@@ -666,6 +743,16 @@ babel-preset-react@^6.24.1:
     babel-plugin-transform-react-jsx-self "^6.22.0"
     babel-plugin-transform-react-jsx-source "^6.22.0"
     babel-preset-flow "^6.23.0"
+
+babel-preset-stage-3@^6.24.1:
+  version "6.24.1"
+  resolved "https://registry.yarnpkg.com/babel-preset-stage-3/-/babel-preset-stage-3-6.24.1.tgz#836ada0a9e7a7fa37cb138fb9326f87934a48395"
+  dependencies:
+    babel-plugin-syntax-trailing-function-commas "^6.22.0"
+    babel-plugin-transform-async-generator-functions "^6.24.1"
+    babel-plugin-transform-async-to-generator "^6.24.1"
+    babel-plugin-transform-exponentiation-operator "^6.24.1"
+    babel-plugin-transform-object-rest-spread "^6.22.0"
 
 babel-register@^6.26.0:
   version "6.26.0"
@@ -1555,10 +1642,6 @@ detect-node@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/detect-node/-/detect-node-2.0.3.tgz#a2033c09cc8e158d37748fbde7507832bd6ce127"
 
-detect-passive-events@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/detect-passive-events/-/detect-passive-events-1.0.4.tgz#6ed477e6e5bceb79079735dcd357789d37f9a91a"
-
 diffie-hellman@^5.0.0:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/diffie-hellman/-/diffie-hellman-5.0.2.tgz#b5835739270cfe26acf632099fded2a07f209e5e"
@@ -2032,7 +2115,7 @@ flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
-follow-redirects@^1.2.5:
+follow-redirects@^1.3.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.4.1.tgz#d8120f4518190f55aac65bb6fc7b85fcd666d6aa"
   dependencies:
@@ -2845,10 +2928,6 @@ jju@^1.1.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/jju/-/jju-1.3.0.tgz#dadd9ef01924bc728b03f2f7979bdbd62f7a2aaa"
 
-jquery@>=1.8.3:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
-
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.0.tgz#9e566fee624751a1d720c966cd6226d29d4025aa"
@@ -3045,7 +3124,7 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
-lodash-es@^4.17.5:
+lodash-es@^4.17.4, lodash-es@^4.17.5:
   version "4.17.5"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.5.tgz#9fc6e737b1c4d151d8f9cae2247305d552ce748f"
 
@@ -3065,10 +3144,6 @@ lodash.clonedeep@^4.3.2:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
 
-lodash.debounce@^4.0.8:
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
-
 lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
@@ -3081,15 +3156,11 @@ lodash.tail@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.tail/-/lodash.tail-4.1.1.tgz#d2333a36d9e7717c8ad2f7cacafec7c32b444664"
 
-lodash.throttle@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
-
 lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-lodash@4, lodash@^4.11.2, lodash@^4.17.5:
+lodash@4, lodash@^4.11.2, lodash@^4.13.1, lodash@^4.17.5:
   version "4.17.5"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
 
@@ -3607,12 +3678,6 @@ osenv@0, osenv@^0.1.4:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
-owl.carousel@~2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/owl.carousel/-/owl.carousel-2.2.0.tgz#f3598d01e60757bc107b2b3c61231b1140cf360c"
-  dependencies:
-    jquery ">=1.8.3"
-
 p-finally@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
@@ -4073,7 +4138,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.4, prop-types@^15.5.8, prop-types@^15.6.0:
+prop-types@^15.5.4, prop-types@^15.6.0:
   version "15.6.0"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
   dependencies:
@@ -4213,22 +4278,6 @@ react-dom@^16.2.0:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-image-gallery@^0.8.6:
-  version "0.8.6"
-  resolved "https://registry.yarnpkg.com/react-image-gallery/-/react-image-gallery-0.8.6.tgz#f9268978a0e777110bc735498faf14a0dfb4048f"
-  dependencies:
-    lodash.debounce "^4.0.8"
-    lodash.throttle "^4.1.1"
-    prop-types "^15.5.8"
-    react-swipeable "^4.0.0"
-
-react-owl-carousel@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/react-owl-carousel/-/react-owl-carousel-2.2.0.tgz#de2bf1b5296c0cf873a4c5c1a176c2b3d1edd289"
-  dependencies:
-    owl.carousel "~2.2.0"
-    prop-types "^15.5.8"
-
 react-redux@^5.0.7:
   version "5.0.7"
   resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-5.0.7.tgz#0dc1076d9afb4670f993ffaef44b8f8c1155a4c8"
@@ -4262,13 +4311,6 @@ react-router@^4.2.0:
     path-to-regexp "^1.7.0"
     prop-types "^15.5.4"
     warning "^3.0.0"
-
-react-swipeable@^4.0.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/react-swipeable/-/react-swipeable-4.2.0.tgz#553d62c8fe62eac9308f559069c02693cc78665c"
-  dependencies:
-    detect-passive-events "^1.0.4"
-    prop-types "^15.5.8"
 
 react@^16.2.0:
   version "16.2.0"
@@ -4359,6 +4401,23 @@ reduce-function-call@^1.0.1:
   resolved "https://registry.yarnpkg.com/reduce-function-call/-/reduce-function-call-1.0.2.tgz#5a200bf92e0e37751752fe45b0ab330fd4b6be99"
   dependencies:
     balanced-match "^0.4.2"
+
+reduce-reducers@^0.1.0:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/reduce-reducers/-/reduce-reducers-0.1.2.tgz#fa1b4718bc5292a71ddd1e5d839c9bea9770f14b"
+
+redux-actions@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/redux-actions/-/redux-actions-2.2.1.tgz#d64186b25649a13c05478547d7cd7537b892410d"
+  dependencies:
+    invariant "^2.2.1"
+    lodash "^4.13.1"
+    lodash-es "^4.17.4"
+    reduce-reducers "^0.1.0"
+
+redux-thunk@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.2.0.tgz#e615a16e16b47a19a515766133d1e3e99b7852e5"
 
 regenerate@^1.2.1:
   version "1.3.3"
