@@ -5,17 +5,10 @@ class Footer extends Component {
     return (
       <footer>
         <div className="container">
-          <div className="col-4">
-            <h3>ATENCIÓN AL USUARIO</h3>
-
-          </div>
-
-          <div className="col-4">
-            <h3>HORARIO DE ATENCIÓN</h3>
-          </div>
-
-          <div className="col-4">
-            <h3>DIRECCIÓN</h3>
+          <div className="col-12">
+            <p>
+              Copyright el Baratón
+            </p>
           </div>
         </div>
       </footer>

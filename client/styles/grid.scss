@@ -21,7 +21,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background: #cdcdcd;
+  background: #f7f7f7;
   left: 0;
   top: 0;
   font-size: 100%;
@@ -130,8 +130,8 @@ $breakpoint-large: 60em; // 960px
   }
 
   @media only screen and (min-width: $breakpoint-large) {
-    width: 75%;
-    max-width: 60rem;
+    width: 80%;
+    max-width: 70rem;
   }
 }
 

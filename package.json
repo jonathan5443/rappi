@@ -7,7 +7,7 @@
   "author": "Jonathan Buitrago Lopez",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --watch-poll",
     "serve": "json-server ./data/db.js",
     "build": "./node_modules/.bin/webpack"
   },
