@@ -9,11 +9,25 @@ import { bindActionCreators } from "redux";
 import * as actions from "../../redux/actions/shopping-cart";
 
 class Home extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      products: this.props.store.products
+    }
+    this.updateProductList = this.updateProductList.bind(this);
+  }
+
+  updateProductList(newProducts = this.props.store.products){
+    this.setState({
+      products: newProducts
+    })
+  }
+  
   render() {
     return (
       <div>
-        <Filter products={this.props.store.products} />
-        <ProductList products={this.props.store.products} />
+        <Filter products={this.state.products} updateProductList={this.updateProductList} />
+        <ProductList products={this.state.products} />
       </div>
     );
   }
