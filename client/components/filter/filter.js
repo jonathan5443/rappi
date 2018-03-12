@@ -39,15 +39,17 @@ class Filter extends Component {
   render() {
     return (
       <div className="col-2 filter">
-        <p>
-          Filter By
-        </p>
-        <input
+        <h2>
+          Filtrar por
+        </h2>
+        <hr />
+        Disponibilidad
+        <br />
+        <p><input
           name="availibility"
           type="checkbox"
           checked={this.state.isFilterByAvailibility}
-          onChange={this.filterByAvailability} />
-        Disponibilidad
+          onChange={this.filterByAvailability} />Disponible</p>
         <hr />
         Precio
         <input name="priceMin" type="text" placeholder="min" onChange={(event) => {
@@ -60,6 +62,8 @@ class Filter extends Component {
             isFilterByPriceMax: event.target.value
           }, () => { this.filterByPrice() })
         }} />
+        <hr />
+
       </div>
     );
   }

@@ -8,7 +8,7 @@ class ProductsList extends Component {
 
   render() {
     return (
-      <div className="col-10">
+      <div className="col-10 product-list-container">
         {
           this.props.products.length > 0 ? (
             this.props.products.map((product) =>

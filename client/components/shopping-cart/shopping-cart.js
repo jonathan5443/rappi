@@ -21,6 +21,7 @@ class ShoppingCart extends Component {
     return (
       < div className="shopping-cart" >
         <h2>Tu carrito</h2>
+        <button onClick={this.props.onClose}>Cerrar</button>
         {
           Object.keys(this.props.shoppingCart.products).length > 0 ? (
             <div>

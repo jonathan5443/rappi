@@ -17,10 +17,10 @@ class ProductDetail extends Component {
   render() {
     return (
       <div className="row product-detail col-3">
-        <img src={require(`../../images/beans.png`)} alt={this.props.product.name} />
+        <img src={require(`../../images/${this.props.product.image}`)} alt={this.props.product.name} />
         <p className="name">{this.props.product.name}</p>
         <p className="name">{this.props.product.price}</p>
-        <button className="button" onClick={this.addToCart}>ADD</button>
+        <button className="button" onClick={this.addToCart}>Agregar al carrito</button>
       </div>
     );
   }

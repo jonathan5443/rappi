@@ -10,30 +10,37 @@ class NavBar extends Component {
   constructor(props) {
     super(props);
     this.createMenu = this.createMenu.bind(this);
+    this.selectCategory = this.selectCategory.bind(this);
+    this.formattedMenu = "";
+  }
+
+  selectCategory(categoryId){
+    console.log(categoryId)
   }
 
   createMenu(menu = this.props.store.categories) {
-    let formattedMenu = `<ul>`;
+    this.formattedMenu = `${this.formattedMenu}<ul>`;
     for (let i = 0; i < menu.length; i++) {
-      formattedMenu = `${formattedMenu}<li>${menu[i].name}`
+      this.formattedMenu = `${this.formattedMenu}<li>${menu[i].name}`
       if (menu[i].sublevels) {
         this.createMenu(menu[i].sublevels);
       }
-      formattedMenu = `${formattedMenu}</li>`;
+      this.formattedMenu = `${this.formattedMenu}</li>`;
     }
-    formattedMenu = `${formattedMenu}</ul>`;
-    return formattedMenu;
+    this.formattedMenu = `${this.formattedMenu}</ul>`;
+    return this.formattedMenu;
   }
 
   render() {
+    this.formattedMenu = "";
     return (
-      <nav>
+      <nav> 
         <div className="container">
           <div className="row">
             <div className="TabBar col-12">
               {
                 this.props.store.categories.length > 0 ? (
-                  <div dangerouslySetInnerHTML={{ __html: this.createMenu() }} />
+                  <div dangerouslySetInnerHTML={{ __html: this.createMenu()}} />
                 ) : (
                     <li className={""}>No hay categorias</li>
                   )

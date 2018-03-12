@@ -2,36 +2,53 @@
 
 //General
 .contentWrapper {
-  background-color: #f7f7f7;
+  padding-top: 25px;
   overflow: auto;
 }
 
 //Header
 header {
   overflow: hidden;
-  background-color: #242122;
+  background-color: #ffffff;
   padding: 15px 0;
-  h1 {
-    color: #ffffff;
-    margin-top: 0px;
-    font-size: 25px;
-    padding: 0;
-    font-weight: normal;
+  .logo-container{
+    margin-left: 1%;
+    margin-right: 3%;  
+    h1 {
+      color: #FC614C;
+      margin-top: 0px;
+      font-size: 25px;
+      padding: 0;
+      font-weight: normal;
+    }
   }
   p{
-    color: #ffffff;
+    color: #FC614C;
+  }
+  .shopping-cart-container{
+    text-align: right;
+    a{
+      color: #FC614C;
+      &:hover{
+        text-decoration: underline;
+        color: rgb(252, 129, 113)
+      }
+    }
   }
 }
 
 //Navbar
 nav {
-  background-color: #707274;
+  background-color: #ececec;
   margin: 0;
+  -webkit-box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.18);
+  -moz-box-shadow:    0px 5px 11px 0px rgba(50, 50, 50, 0.18);
+  box-shadow:         0px 5px 11px 0px rgba(50, 50, 50, 0.18);
   ul {
     padding: 0;
     li {
       display: inline;
-      padding: 0 18px;
+      padding: 0 18px 0 3px;
       margin: 0;
       span {
         color: #ffffff;
@@ -39,7 +56,7 @@ nav {
         cursor: pointer;
       }
       ul{
-        display: none
+        display: none;
       }
     }
   }
@@ -60,6 +77,16 @@ nav {
   padding-right: 2%;
   padding-left: 1%;
   min-height: 400px;
+  h2{
+    font-size: 17px;
+  }
+  input[type='text'] {
+    width: 100%;
+  }
+  p{
+    font-size: 15px;  
+  }
+
 }
 
 //Footer
@@ -79,12 +106,17 @@ footer {
   position: fixed;
   top: 0;
   z-index: 10;
-  background-color: red;
+  background-color: #6c6c6c;
   right: 0;
-  height: 500px;
+  min-height: 100%;
   width: 300px;
 }
 
+//Product-list
+.product-list-container{
+  margin: 0;
+  width: 83.3%;
+}
 .product-detail{
   text-align: center;
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
@@ -92,9 +124,16 @@ footer {
   margin-bottom: 20px;
   background: #ffffff;
   img{
-    width: 50%;
+    max-height: 100px;
   }
   p{
     text-transform: capitalize
+  }
+  button{
+    cursor: pointer;
+    &:hover{
+      background-color: #FC614C;
+      color: #ffffff;
+    }
   }
 }
