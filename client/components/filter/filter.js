@@ -28,7 +28,6 @@ class Filter extends Component {
   }
 
   filterByPrice() {
-    console.log("asd")
     const filter = this.props.products.filter((product) => {
       const productPrice = Number(product.price.replace(/[^0-9\.-]+/g, "")) / 1000
       return (productPrice > this.state.isFilterByPriceMin) && (productPrice < this.state.isFilterByPriceMax);

@@ -26,6 +26,13 @@ body {
   top: 0;
   font-size: 100%;
 }
+button{
+  cursor: pointer;
+  &:hover{
+    background-color: #FC614C;
+    color: #ffffff;
+  }
+}
 
 * {
   font-family: $font-family;
