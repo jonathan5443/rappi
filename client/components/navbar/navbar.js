@@ -4,45 +4,38 @@ import React, { Component } from 'react';
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import * as actions from "../../redux/actions/store";
-
+import NavBarItem from "./navbar-item.js"
 class NavBar extends Component {
 
   constructor(props) {
     super(props);
     this.createMenu = this.createMenu.bind(this);
-    this.selectCategory = this.selectCategory.bind(this);
-    this.formattedMenu = "";
   }
 
-  selectCategory(categoryId){
+  selectCategory(categoryId) {
     console.log(categoryId)
   }
 
-  createMenu(menu = this.props.store.categories) {
-    this.formattedMenu = `${this.formattedMenu}<ul>`;
-    for (let i = 0; i < menu.length; i++) {
-      this.formattedMenu = `${this.formattedMenu}<li>${menu[i].name}`
-      if (menu[i].sublevels) {
-        this.createMenu(menu[i].sublevels);
-      }
-      this.formattedMenu = `${this.formattedMenu}</li>`;
-    }
-    this.formattedMenu = `${this.formattedMenu}</ul>`;
-    return this.formattedMenu;
+  createMenu() {
+    let nodes = this.props.store.categories.map((item) => {
+      return (
+        <NavBarItem node={item} onSelectCategory={this.selectCategory} children={item.sublevels} />
+      );
+    });
+    return nodes;
   }
 
   render() {
-    this.formattedMenu = "";
     return (
-      <nav> 
+      <nav>
         <div className="container">
           <div className="row">
             <div className="TabBar col-12">
               {
                 this.props.store.categories.length > 0 ? (
-                  <div dangerouslySetInnerHTML={{ __html: this.createMenu()}} />
+                  <ul> {this.createMenu()} </ul>
                 ) : (
-                    <li className={""}>No hay categorias</li>
+                    <p>No hay categorias</p>
                   )
               }
             </div>

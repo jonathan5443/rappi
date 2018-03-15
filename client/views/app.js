@@ -9,9 +9,15 @@ import { bindActionCreators } from "redux";
 import * as actions from "../redux/actions/store";
 
 class App extends React.Component {
+
   componentDidMount() {
     this.props.actions.create_store_structure();
   }
+
+  filterProducts(){
+    
+  }
+
   render() {
     return (
       <div className="mainWrapper">
