@@ -2,7 +2,8 @@ import { handleActions } from "redux-actions";
 
 const initialState = {
   categories: {},
-  products: {}
+  products: {},
+  
 };
 
 const actionMap = {};

@@ -39,7 +39,15 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
+
 function mapStateToProps(state) {
+  const { items, searchText } = state.searchSimple;
+  return {
+      filteredItems: items.filter((item) => item.startsWith(searchText))
+  };
+}
+function mapStateToProps(state) {
+  
   return {
     store: state.store
   };

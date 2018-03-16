@@ -32,13 +32,13 @@ class ShoppingCart extends Component {
                 {
                   Object.keys(this.props.shoppingCart.products).map((key) =>
                     <div className="row product-detail col-12">
-                      <div className="col-4">
+                      <div className="col-4 col-4-sm">
                         <img src={require(`../../images/${this.props.shoppingCart.products[key].image}`)} alt={this.props.shoppingCart.products[key].name} />
                       </div>
-                      <div className="name col-5">
+                      <div className="name col-5 col-4-sm">
                         <p >{ this.props.shoppingCart.products[key].name }</p>
                       </div>
-                      <div className="price col-3">
+                      <div className="price col-3 col-4-sm">
                         <p >{ this.props.shoppingCart.products[key].price } X { this.props.shoppingCart.products[key].quantity }</p>
                       </div>
                     </div>

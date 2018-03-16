@@ -23,10 +23,10 @@ class Header extends Component {
       <header >
         <div className="container">
           <div className="row">
-            <div className="col-10 logo-container">
+            <div className="col-10 col-6-sm logo-container">
               <h1>El Baratón</h1>
             </div>
-            <div className="col-2 shopping-cart-container">
+            <div className="col-2 col-6-sm  shopping-cart-container">
               <a href="#" onClick={this.showShoppingCart}>
                 <p>Carrito - {this.props.shoppingCart.total.toFixed(2)}</p>
               </a>

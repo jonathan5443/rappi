@@ -14,10 +14,6 @@ class App extends React.Component {
     this.props.actions.create_store_structure();
   }
 
-  filterProducts(){
-    
-  }
-
   render() {
     return (
       <div className="mainWrapper">
